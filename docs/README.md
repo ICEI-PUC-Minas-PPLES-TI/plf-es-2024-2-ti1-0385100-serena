@@ -35,19 +35,19 @@ acesso à informação.
 e aqueles com dificuldades de acesso a cuidados tradicionais de
 saúde mental.
 
-# Usuário 1 Clara 
+### Usuário 1 Clara 
 É uma pessoa muito ocupada, trabalha
 e estuda o dia todo, com uma rotina corrida e agitada ela acaba sendo muito ansiosa e
 estressada. Ela também é uma mulher calma e tranquila, porem muito insegura e
 introvertida.
 
-# Usuário 2: Rafael 
+### Usuário 2: Rafael 
 É um jovem com a rotina bem corrida por conta do
 trabalho e da faculdade, sente que está sempre ligado no
 220, tendo dificuldade para desacelerar. Sente ancioso, com medo de não da conta,
 inseguro, além de ter que se adaptar a vida de morar sozinho longe de sua família...
 
-# Usuário 3: Refrigerana
+### Usuário 3: Refrigerana
 É uma pessoa muito estressada e ansiosa, devido as
 dificuldades de sustentar seus dois filhos. É uma pessoa que tem dificuldade em sentar
 e se concentrar em algo como estudos.
