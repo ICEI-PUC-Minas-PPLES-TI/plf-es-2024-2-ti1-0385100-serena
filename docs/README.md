@@ -65,16 +65,10 @@ e se concentrar em algo como estudos.
 > * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
 ## Etapa de Definição
 ### Personas
-![Persona x Público-alvo] (https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_Hqr7UHml0z.png)
-![Persona x Público-alvo] (https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_Jt2KxOoBED.png)
-![Persona x Público-alvo] (https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_S3uJdquT9p.png)
+![Persona x Público-alvo](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_Hqr7UHml0z.png)
+![Persona x Público-alvo](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_Jt2KxOoBED.png)
+![Persona x Público-alvo](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_S3uJdquT9p.png)
 
-> **Orientações**:
->
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
 # Product Design
 Nesse momento, vamos transformar os insights e validações obtidos em soluções tangíveis e utilizáveis. Essa fase envolve a definição de uma proposta de valor, detalhando a prioridade de cada ideia e a consequente criação de wireframes, mockups e protótipos de alta fidelidade, que detalham a interface e a experiência do usuário.
 
