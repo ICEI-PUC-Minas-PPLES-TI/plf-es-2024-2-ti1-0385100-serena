@@ -12,7 +12,7 @@ Informações básicas do projeto.
 5. Metodologia
 6. Solução
 7. Referências Bibliográficas
-✅ [Documentação de Design Thinking (MIRO)](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/files/PPLES-M%20-%20Grupo%205%20-%20Falta%20de%20Informa%C3%A7%C3%A3o%20sobre%20sa%C3%BAde%20mental-4.pdf))
+8. ✅ [Documentação de Design Thinking (MIRO)](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/files/PPLES-M%20-%20Grupo%205%20-%20Falta%20de%20Informa%C3%A7%C3%A3o%20sobre%20sa%C3%BAde%20mental-4.pdf))
 # Contexto
 Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
 ## Problema
@@ -65,11 +65,10 @@ e se concentrar em algo como estudos.
 > * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
 ## Etapa de Definição
 ### Personas
-**✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
->
+[Persona x Público-alvo] (https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_Hqr7UHml0z.png)
+[Persona x Público-alvo] (https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_Jt2KxOoBED.png)
+[Persona x Público-alvo] (https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_S3uJdquT9p.png)
+
 > **Orientações**:
 >
 > - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
