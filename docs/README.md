@@ -65,9 +65,9 @@ e se concentrar em algo como estudos.
 > * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
 ## Etapa de Definição
 ### Personas
-[Persona x Público-alvo] (https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_Hqr7UHml0z.png)
-[Persona x Público-alvo] (https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_Jt2KxOoBED.png)
-[Persona x Público-alvo] (https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_S3uJdquT9p.png)
+![Persona x Público-alvo] (https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_Hqr7UHml0z.png)
+![Persona x Público-alvo] (https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_Jt2KxOoBED.png)
+![Persona x Público-alvo] (https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_S3uJdquT9p.png)
 
 > **Orientações**:
 >
