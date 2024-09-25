@@ -20,31 +20,19 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 * Diagnósticos tardios, tratamentos inadequados e estigmatização.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
->
-> **Orientações**:
->
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+
+
 ## Objetivos
 * Desenvolver um software que ofereça informações claras e
 acessíveis sobre saúde mental.
 * Ajudar os usuários a identificar sintomas, buscar ajuda e praticar
 autocuidado.
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
->
-> **Orientações**:
->
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 ## Justificativa
 * Crescente demanda por educação sobre saúde mental.
 * A tecnologia oferece uma oportunidade para eliminar barreiras de
 acesso à informação.
-> **Orientações**:
->
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-> - 
+
 ## Público-Alvo
 * Indivíduos de todas as idades, especialmente jovens, profissionais
 e aqueles com dificuldades de acesso a cuidados tradicionais de
@@ -67,10 +55,6 @@ inseguro, além de ter que se adaptar a vida de morar sozinho longe de sua famí
 dificuldades de sustentar seus dois filhos. É uma pessoa que tem dificuldade em sentar
 e se concentrar em algo como estudos.
 
-> **Orientações**:
->
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
 # Product Discovery
 ## Etapa de Entendimento
 **✳️✳️✳️ APRESENTE OS ARTEFATOS DA ETAPA  ✳️✳️✳️**
@@ -111,10 +95,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 | Usuário do sistema   | Acessar o aplicativo a qualquer hora | Possa identificar o que está acontecendo comigo e se isso enquadra em saúde mental |
 | Administrador         | Alterar permissões | Permitir que possam administrar contas |
 | Administrador         | Painel de controle das edições e fontes | Painel de controle das edições e fontes |
-> **Orientações**:
->
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+
 ## Proposta de Valor
 
 ![Exemplo de proposta de valor](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/prop1.png)
@@ -155,11 +136,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 >   correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
 >
 > Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
->
-> **Orientações**:
->
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+
 ## Projeto de Interface
 Artefatos relacionados com a interface e a interacão do usuário na proposta de solução.
 ### Wireframes
@@ -187,17 +164,7 @@ necessidades.
 * 4. Recebe sugestões e recursos personalizáveis.
 * 5. Opcionalmente, busca ajuda profissional.
 * 6. Recebe acompanhamento e notificações, se desejar.
-**✳️✳️✳️ COLOQUE AQUI O DIAGRAMA DE FLUXO DE TELAS ✳️✳️✳️**
-![Exemplo de fluxo de telas](images/exemplo-userflow.png)
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
->
-> **Orientações**:
->
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+
 ### Protótipo Interativo
 ✅ [Protótipo Interativo (MarvelApp)](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/prototipo.jpg)
 > Um protótipo interativo apresenta o projeto de interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse lidando com o software pronto. Utilize as mesmas ferramentas de construção de wireframes para montagem do seu protótipo interativo. Inclua o link para o protótipo interativo do projeto.
@@ -315,10 +282,3 @@ As referências utilizadas no trabalho foram:
   World Health Organization. (2019). Mental Health: Strengthening Our Response. Disponível em: who.int
 * National Alliance on Mental Illness (NAMI):
   National Alliance on Mental Illness. (2021). Mental Health Conditions. Disponível em: nami.org
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
->
-> **Orientações**:
->
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
