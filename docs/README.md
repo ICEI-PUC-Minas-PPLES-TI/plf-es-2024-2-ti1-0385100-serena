@@ -125,14 +125,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
 | RNF-003 | O aplicativo deve ser acessível à qualquer momento | BAIXA      |
 | RNF-004 | O aplicativo deve possuir uma interface mista | BAIXA      |
-> Os requisitos de um projeto são classificados em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Projeto de Interface
 Artefatos relacionados com a interface e a interacão do usuário na proposta de solução.
