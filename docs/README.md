@@ -2,15 +2,13 @@
 
 Informações básicas do projeto.
 
-* **Projeto:** [NOME DO PROJETO]
-* **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
+* **Projeto:** Aplicativo sobre Falta de Informação sobre saúde mental
+* **Repositório GitHub:** https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5
 * **Membros da equipe:**
 
-  * [Fulano](https://github.com/fulano) ⚠️ EXEMPLO ⚠️
-  * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
-  * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
-
-A documentação do projeto é estruturada da seguinte forma:
+  * [Aléxia Pereira Quaresma](https://github.com/AlexiaPxr)
+  * [Deignaura Gonçalves Ribeiro](https://github.com/Deignaura)
+  * [Guilherme d'Angelis Ribeiro Lelis](https://github.com/Canaranjo)
 
 1. Introdução
 2. Contexto
@@ -20,7 +18,7 @@ A documentação do projeto é estruturada da seguinte forma:
 6. Solução
 7. Referências Bibliográficas
 
-✅ [Documentação de Design Thinking (MIRO)](files/processo-dt.pdf)
+✅ [Documentação de Design Thinking (MIRO)](files/PPLES-M - Grupo 5 - Falta de Informação sobre saúde mental-4.pdf)
 
 # Contexto
 
