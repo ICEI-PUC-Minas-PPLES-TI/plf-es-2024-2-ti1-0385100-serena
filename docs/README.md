@@ -19,9 +19,6 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 * Falta de informação sobre saúde mental.
 * Diagnósticos tardios, tratamentos inadequados e estigmatização.
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-
 ## Objetivos
 * Desenvolver um software que ofereça informações claras e
 acessíveis sobre saúde mental.
