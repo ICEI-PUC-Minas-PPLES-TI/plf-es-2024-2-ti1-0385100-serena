@@ -16,9 +16,9 @@ Informações básicas do projeto.
 # Contexto
 Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
 ## Problema
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
+* Falta de informação sobre saúde mental.
+* Diagnósticos tardios, tratamentos inadequados e estigmatização.
+
 > Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
 >
 > **Orientações**:
@@ -27,33 +27,46 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 ## Objetivos
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
+* Desenvolver um software que ofereça informações claras e
+acessíveis sobre saúde mental.
+* Ajudar os usuários a identificar sintomas, buscar ajuda e praticar
+autocuidado.
+
 > Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
 >
 > **Orientações**:
 >
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 ## Justificativa
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
->
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
->
+* Crescente demanda por educação sobre saúde mental.
+* A tecnologia oferece uma oportunidade para eliminar barreiras de
+acesso à informação.
 > **Orientações**:
 >
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+> - 
 ## Público-Alvo
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva quais são as pessoas que usarão a sua aplicação indicando os diferentes perfis. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
->
+* Indivíduos de todas as idades, especialmente jovens, profissionais
+e aqueles com dificuldades de acesso a cuidados tradicionais de
+saúde mental.
+
+# Usuário 1 Clara 
+É uma pessoa muito ocupada, trabalha
+e estuda o dia todo, com uma rotina corrida e agitada ela acaba sendo muito ansiosa e
+estressada. Ela também é uma mulher calma e tranquila, porem muito insegura e
+introvertida.
+
+# Usuário 2: Rafael 
+É um jovem com a rotina bem corrida por conta do
+trabalho e da faculdade, sente que está sempre ligado no
+220, tendo dificuldade para desacelerar. Sente ancioso, com medo de não da conta,
+inseguro, além de ter que se adaptar a vida de morar sozinho longe de sua família...
+
+# Usuário 3: Refrigerana
+É uma pessoa muito estressada e ansiosa, devido as
+dificuldades de sustentar seus dois filhos. É uma pessoa que tem dificuldade em sentar
+e se concentrar em algo como estudos.
+
 > **Orientações**:
 >
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
@@ -166,6 +179,14 @@ Descrição para a tela XPTO
 > - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
 > - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
 ### User Flow
+* 1. Acessa o aplicativo
+* 2. Escolhe a opção de interesse (informação, autoavaliação,
+autocuidado ou ajuda).
+* 3. Explora informações e realiza ações com base em suas
+necessidades.
+* 4. Recebe sugestões e recursos personalizáveis.
+* 5. Opcionalmente, busca ajuda profissional.
+* 6. Recebe acompanhamento e notificações, se desejar.
 **✳️✳️✳️ COLOQUE AQUI O DIAGRAMA DE FLUXO DE TELAS ✳️✳️✳️**
 ![Exemplo de fluxo de telas](images/exemplo-userflow.png)
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
@@ -287,9 +308,14 @@ Esta seção apresenta os módulos e APIs utilizados na solução
 > Apresente os módulos e APIs utilizados no desenvolvimento da solução. Inclua itens como: (1) Frameworks, bibliotecas, módulos, etc. utilizados no desenvolvimento da solução; (2) APIs utilizadas para acesso a dados, serviços, etc.
 # Referências
 As referências utilizadas no trabalho foram:
-* SOBRENOME, Nome do autor. Título da obra. 8. ed. Cidade: Editora, 2000. 287 p ⚠️ EXEMPLO ⚠️
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
+* Goffman, E. (2010). Estigma: Notas sobre a manipulação da identidade deteriorada. Rio de Janeiro: Editora Vozes.
+* Almeida, R. M., & Gonçalves, M. M. (2018). Barreiras ao acesso aos serviços de saúde mental: um desafio para a atenção psicossocial. Saúde e Sociedade, 27(2), 560-570. Link
+* Santos, A. M., & Ribeiro, C. M. (2016). Saúde mental e qualidade de vida: uma revisão integrativa. Revista Brasileira de Terapias Cognitivas, 12(1), 34-40. Link
+* Organização Mundial da Saúde (OMS):
+  World Health Organization. (2019). Mental Health: Strengthening Our Response. Disponível em: who.int
+* National Alliance on Mental Illness (NAMI):
+  National Alliance on Mental Illness. (2021). Mental Health Conditions. Disponível em: nami.org
+
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
 >
 > **Orientações**:
