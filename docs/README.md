@@ -18,7 +18,7 @@ Informações básicas do projeto.
 6. Solução
 7. Referências Bibliográficas
 
-✅ [Documentação de Design Thinking (MIRO)](files/PPLES-M - Grupo 5 - Falta de Informação sobre saúde mental-4.pdf)
+✅ [Documentação de Design Thinking (MIRO)](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/files/PPLES-M%20-%20Grupo%205%20-%20Falta%20de%20Informa%C3%A7%C3%A3o%20sobre%20sa%C3%BAde%20mental-4.pdf))
 
 # Contexto
 
