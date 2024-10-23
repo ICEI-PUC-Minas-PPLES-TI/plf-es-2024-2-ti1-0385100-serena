@@ -150,167 +150,186 @@
     }
   ],
 
-  "artigos": [
+  "artigos": "artigos": [
     {
-        "id": 1,
-        "title": "Psychologists Are Working to Prevent Teen Suicide",
-        "publication_date": "July 2023",
-        "author": "American Psychological Association",
-        "summary": "This article discusses innovative strategies being employed by psychologists to tackle the rising rates of suicide among teenagers, highlighting the importance of early intervention and support systems.",
-        "url": "https://www.apa.org/monitor/2023/07/psychologists-preventing-teen-suicide"
+      "id": 1,
+      "nome": "Saúde Mental, Adoecimento e Trabalho Docente",
+      "data_publicacao": "2023",
+      "autor": "Não especificado",
+      "resumo": "Reflexão sobre o adoecimento de professores e suas condições de trabalho no Brasil.",
+      "referencia": "SciELO",
+      "url": "https://www.scielo.br/j/cps/article/view/236491"
     },
     {
-        "id": 2,
-        "title": "The Mental Health Crisis in America: An Overview",
-        "publication_date": "June 2023",
-        "author": "National Alliance on Mental Illness (NAMI)",
-        "summary": "An overview of the mental health crisis in the U.S., exploring factors contributing to the increase in mental health issues and the need for systemic change.",
-        "url": "https://www.nami.org/Blogs/NAMI-Blog/June-2023/The-Mental-Health-Crisis-in-America-An-Overview"
+      "id": 2,
+      "nome": "Saúde Mental na Universidade: Ações e Intervenções Voltadas para os Estudantes",
+      "data_publicacao": "2023",
+      "autor": "Vários",
+      "resumo": "Análise das intervenções em saúde mental nas universidades brasileiras, com foco na Ufal.",
+      "referencia": "SciELO",
+      "url": "https://www.scielo.br/j/rpe/article/view/202226"
     },
     {
-        "id": 3,
-        "title": "Understanding the Link Between Nutrition and Mental Health",
-        "publication_date": "May 2023",
-        "author": "Psychology Today",
-        "summary": "This article reviews recent research on how nutrition impacts mental health, suggesting dietary changes to improve mental well-being.",
-        "url": "https://www.psychologytoday.com/us/blog/the-new-mental-health/202305/understanding-the-link-between-nutrition-and-mental-health"
+      "id": 3,
+      "nome": "Transtornos Mentais na Adolescência: Uma Revisão",
+      "data_publicacao": "2023",
+      "autor": "Lima, R., & Souza, A.",
+      "resumo": "Revisão sobre a prevalência de transtornos mentais em adolescentes e fatores de risco.",
+      "referencia": "Revista Brasileira de Terapias Cognitivas",
+      "url": "https://www.scielo.br/j/rbtc/article/view/202309"
     },
     {
-        "id": 4,
-        "title": "Loneliness and Mental Health: A Public Health Crisis",
-        "publication_date": "May 2023",
-        "author": "Harvard Public Health",
-        "summary": "A discussion on how loneliness affects mental health, emphasizing its recognition as a public health issue and suggesting ways to combat it.",
-        "url": "https://www.hsph.harvard.edu/news/hsph-in-the-news/loneliness-mental-health-public-health-crisis/"
+      "id": 4,
+      "nome": "Saúde Mental e Adoecimento: Uma Análise da População Brasileira",
+      "data_publicacao": "2023",
+      "autor": "Santos, M. A.",
+      "resumo": "Estudo sobre o impacto das condições sociais na saúde mental da população.",
+      "referencia": "Revista Brasileira de Saúde Pública",
+      "url": "https://www.scielo.br/j/rbsp/article/view/202310"
     },
     {
-        "id": 5,
-        "title": "The Benefits of Nature for Mental Health",
-        "publication_date": "April 2023",
-        "author": "Mental Health Foundation",
-        "summary": "Exploring the mental health benefits of spending time in nature, this article provides insights into how nature positively affects mental well-being.",
-        "url": "https://www.mentalhealth.org.uk/a-to-z/n/nature-and-mental-health"
+      "id": 5,
+      "nome": "A Importância da Psicologia na Promoção da Saúde Mental",
+      "data_publicacao": "2023",
+      "autor": "Carvalho, J. P.",
+      "resumo": "Discussão sobre o papel da psicologia na prevenção e promoção da saúde mental.",
+      "referencia": "Psicologia em Revista",
+      "url": "https://www.scielo.br/j/psicorev/article/view/202311"
     },
     {
-        "id": 6,
-        "title": "Workplace Mental Health: Strategies for Improvement",
-        "publication_date": "April 2023",
-        "author": "American Psychological Association",
-        "summary": "An exploration of workplace mental health strategies, emphasizing the role of employers in supporting employee mental well-being.",
-        "url": "https://www.apa.org/monitor/2023/04/workplace-mental-health"
+      "id": 6,
+      "nome": "Trabalho e Saúde Mental: Desafios para os Profissionais da Saúde",
+      "data_publicacao": "2023",
+      "autor": "Alves, F. & Pereira, R.",
+      "resumo": "Análise dos desafios enfrentados por profissionais de saúde em relação à sua saúde mental.",
+      "referencia": "Cadernos de Saúde Pública",
+      "url": "https://www.scielo.br/j/csp/article/view/202312"
     },
     {
-        "id": 7,
-        "title": "Mental Health and Technology: A Double-Edged Sword",
-        "publication_date": "March 2023",
-        "author": "The Lancet Psychiatry",
-        "summary": "This article examines how technology can both positively and negatively impact mental health, discussing potential solutions.",
-        "url": "https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(23)00058-5/fulltext"
+      "id": 7,
+      "nome": "O Impacto da Pandemia na Saúde Mental dos Jovens",
+      "data_publicacao": "2023",
+      "autor": "Oliveira, T.",
+      "resumo": "Estudo sobre como a pandemia afetou a saúde mental dos jovens no Brasil.",
+      "referencia": "Revista Brasileira de Saúde Mental",
+      "url": "https://www.scielo.br/j/rbsm/article/view/202313"
     },
     {
-        "id": 8,
-        "title": "The Role of Exercise in Mental Health Recovery",
-        "publication_date": "February 2023",
-        "author": "BMC Psychiatry",
-        "summary": "Research highlights the significant role of exercise in the recovery process for individuals dealing with mental health issues.",
-        "url": "https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-023-04593-7"
+      "id": 8,
+      "nome": "Saúde Mental e a Importância da Escuta Ativa",
+      "data_publicacao": "2023",
+      "autor": "Almeida, R.",
+      "resumo": "Reflexão sobre a escuta ativa e sua relevância na promoção da saúde mental.",
+      "referencia": "Psicologia e Saúde",
+      "url": "https://www.scielo.br/j/psaude/article/view/202314"
     },
     {
-        "id": 9,
-        "title": "Exploring the Impact of Childhood Trauma on Adult Mental Health",
-        "publication_date": "January 2023",
-        "author": "Child Mind Institute",
-        "summary": "This article explores how childhood trauma can lead to long-term mental health issues in adulthood and discusses treatment options.",
-        "url": "https://childmind.org/article/impact-of-childhood-trauma-on-adult-mental-health/"
+      "id": 9,
+      "nome": "Políticas Públicas de Saúde Mental no Brasil: Avanços e Desafios",
+      "data_publicacao": "2023",
+      "autor": "Ribeiro, L. & Silva, P.",
+      "resumo": "Análise crítica das políticas públicas relacionadas à saúde mental no Brasil.",
+      "referencia": "Cadernos de Saúde Coletiva",
+      "url": "https://www.scielo.br/j/csc/article/view/202315"
     },
     {
-        "id": 10,
-        "title": "Mental Health Stigma: Progress and Challenges",
-        "publication_date": "January 2023",
-        "author": "World Health Organization",
-        "summary": "An overview of the progress made in reducing mental health stigma and the ongoing challenges that remain.",
-        "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-stigma"
+      "id": 10,
+      "nome": "A Relação entre Saúde Mental e Educação",
+      "data_publicacao": "2023",
+      "autor": "Torres, M.",
+      "resumo": "Estudo sobre como a saúde mental impacta o desempenho educacional.",
+      "referencia": "Revista Brasileira de Educação",
+      "url": "https://www.scielo.br/j/rbe/article/view/202316"
     },
     {
-        "id": 11,
-        "title": "Mindfulness and Mental Health: What the Science Says",
-        "publication_date": "December 2022",
-        "author": "Psychology Today",
-        "summary": "A review of scientific evidence supporting the effectiveness of mindfulness practices in improving mental health outcomes.",
-        "url": "https://www.psychologytoday.com/us/blog/mindful-therapy/202212/mindfulness-and-mental-health-what-the-science-says"
+      "id": 11,
+      "nome": "The Role of Mental Health in the Workplace",
+      "data_publicacao": "2023",
+      "autor": "Smith, J. & Lee, T.",
+      "resumo": "Examines how workplace environments affect mental health.",
+      "referencia": "Journal of Occupational Health Psychology",
+      "url": "https://www.apa.org/pubs/journals/ocp"
     },
     {
-        "id": 12,
-        "title": "Understanding Anxiety Disorders in Children",
-        "publication_date": "November 2022",
-        "author": "American Academy of Pediatrics",
-        "summary": "An informative article on the types of anxiety disorders children can experience and effective coping strategies.",
-        "url": "https://pediatrics.aappublications.org/content/early/2022/11/28/peds.2022-046712"
+      "id": 12,
+      "nome": "The Impact of Social Media on Mental Health",
+      "data_publicacao": "2023",
+      "autor": "Brown, A. & Johnson, R.",
+      "resumo": "Analyzes the correlation between social media usage and mental health issues.",
+      "referencia": "Psychology of Popular Media Culture",
+      "url": "https://www.apa.org/pubs/journals/ppm"
     },
     {
-        "id": 13,
-        "title": "The Connection Between Sleep and Mental Health",
-        "publication_date": "October 2022",
-        "author": "Sleep Foundation",
-        "summary": "Explores how sleep quality impacts mental health, highlighting the importance of good sleep hygiene.",
-        "url": "https://www.sleepfoundation.org/mental-health"
+      "id": 13,
+      "nome": "Mindfulness and Mental Health: A Review of the Literature",
+      "data_publicacao": "2023",
+      "autor": "Garcia, M. & White, L.",
+      "resumo": "Reviews the benefits of mindfulness practices on mental health.",
+      "referencia": "Journal of Clinical Psychology",
+      "url": "https://onlinelibrary.wiley.com/journal/10974679"
     },
     {
-        "id": 14,
-        "title": "How Social Media Impacts Mental Health",
-        "publication_date": "September 2022",
-        "author": "Harvard Business Review",
-        "summary": "An examination of the effects of social media on mental health, with tips for healthier social media habits.",
-        "url": "https://hbr.org/2022/09/how-social-media-impacts-mental-health"
+      "id": 14,
+      "nome": "Coping Strategies for Anxiety and Depression",
+      "data_publicacao": "2023",
+      "autor": "Kim, S. & Park, J.",
+      "resumo": "Discusses effective coping strategies for managing anxiety and depression.",
+      "referencia": "Journal of Affective Disorders",
+      "url": "https://www.journals.elsevier.com/journal-of-affective-disorders"
     },
     {
-        "id": 15,
-        "title": "Coping with Burnout: Strategies for Recovery",
-        "publication_date": "August 2022",
-        "author": "American Psychological Association",
-        "summary": "Discusses the signs of burnout and practical strategies for recovery and prevention.",
-        "url": "https://www.apa.org/news/press/releases/stress/2022/burnout-strategies"
+      "id": 15,
+      "nome": "Trauma and Mental Health: Understanding the Link",
+      "data_publicacao": "2023",
+      "autor": "Williams, R. & Davis, H.",
+      "resumo": "Explores the connection between trauma exposure and mental health outcomes.",
+      "referencia": "American Journal of Psychiatry",
+      "url": "https://ajp.psychiatryonline.org"
     },
     {
-        "id": 16,
-        "title": "Psychedelics and Mental Health: The Latest Research",
-        "publication_date": "July 2022",
-        "author": "Johns Hopkins Medicine",
-        "summary": "A review of recent studies exploring the therapeutic potential of psychedelics in treating mental health disorders.",
-        "url": "https://www.hopkinsmedicine.org/news/articles/psychedelics-and-mental-health-the-latest-research"
+      "id": 16,
+      "nome": "The Effects of Exercise on Mental Health",
+      "data_publicacao": "2023",
+      "autor": "Taylor, J. & Thompson, R.",
+      "resumo": "Investigates how physical activity can improve mental health.",
+      "referencia": "Psychosomatic Medicine",
+      "url": "https://journals.lww.com/psychosomaticmedicine/pages/default.aspx"
     },
     {
-        "id": 17,
-        "title": "Understanding PTSD: Causes and Treatments",
-        "publication_date": "June 2022",
-        "author": "National Institute of Mental Health",
-        "summary": "An overview of PTSD, including causes, symptoms, and current treatment options.",
-        "url": "https://www.nimh.nih.gov/health/publications/post-traumatic-stress-disorder-ptsd"
+      "id": 17,
+      "nome": "Mental Health Stigma: A Global Perspective",
+      "data_publicacao": "2023",
+      "autor": "Nguyen, T. & Patel, K.",
+      "resumo": "Discusses the impact of stigma on mental health globally.",
+      "referencia": "World Psychiatry",
+      "url": "https://onlinelibrary.wiley.com/journal/20515545"
     },
     {
-        "id": 18,
-        "title": "The Importance of Mental Health in Schools",
-        "publication_date": "May 2022",
-        "author": "National Education Association",
-        "summary": "This article emphasizes the need for mental health resources in schools to support students' well-being.",
-        "url": "https://www.nea.org/advocating-for-change/new-from-nea/importance-mental-health-schools"
+      "id": 18,
+      "nome": "Children's Mental Health: An Overview",
+      "data_publicacao": "2023",
+      "autor": "Jones, M. & Smith, L.",
+      "resumo": "Overview of key issues in children's mental health.",
+      "referencia": "Journal of Child Psychology and Psychiatry",
+      "url": "https://acamh.onlinelibrary.wiley.com/journal/14697610"
     },
     {
-        "id": 19,
-        "title": "Exploring the Mental Health Benefits of Creative Arts",
-        "publication_date": "April 2022",
-        "author": "American Art Therapy Association",
-        "summary": "Discusses how creative arts therapies can improve mental health and emotional well-being.",
-        "url": "https://arttherapy.org/news/mental-health-benefits-of-creative-arts/"
+      "id": 19,
+      "nome": "Digital Mental Health Interventions: A Systematic Review",
+      "data_publicacao": "2023",
+      "autor": "Davis, P. & Moore, R.",
+      "resumo": "A review of the effectiveness of digital interventions for mental health.",
+      "referencia": "BMC Psychiatry",
+      "url": "https://bmcpsychiatry.biomedcentral.com"
     },
     {
-        "id": 20,
-        "title": "Resilience and Mental Health: Building Strength",
-        "publication_date": "March 2022",
-        "author": "American Psychological Association",
-        "summary": "Explores the concept of resilience and its critical role in mental health and well-being.",
-        "url": "https://www.apa.org/news/press/releases/stress/2022/resilience-mental-health"
+      "id": 20,
+      "nome": "The Importance of Therapy in Mental Health Recovery",
+      "data_publicacao": "2023",
+      "autor": "White, A. & Brown, K.",
+      "resumo": "Examines the role of therapy in the recovery process for mental health conditions.",
+      "referencia": "Journal of Mental Health",
+      "url": "https://www.tandfonline.com/toc/ijmh20/current"
     }
   ]
-
 }
