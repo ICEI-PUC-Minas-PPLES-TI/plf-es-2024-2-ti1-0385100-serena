@@ -20,6 +20,20 @@
       "nome": "Rommel",
       "email": "rommel@gmail.com",
       "id": 3
+    },
+    {
+      "login": "alexia",
+      "senha": "123",
+      "nome": "Aléxia Pereira Quaresma",
+      "email": "alexia@gmail.com",
+      "id": 4
+    },
+    {
+      "login": "deignaura",
+      "senha": "123",
+      "nome": "Deignaura Gonçalves",
+      "email": "deignura@gmaiç.com",
+      "id": 5
     }
   ]
 }
