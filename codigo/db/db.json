@@ -148,5 +148,169 @@
       "url": "https://exemplo.com/psicologo10",
       "cor": "#FF33E2"
     }
+  ],
+
+  "artigos": [
+    {
+        "id": 1,
+        "title": "Psychologists Are Working to Prevent Teen Suicide",
+        "publication_date": "July 2023",
+        "author": "American Psychological Association",
+        "summary": "This article discusses innovative strategies being employed by psychologists to tackle the rising rates of suicide among teenagers, highlighting the importance of early intervention and support systems.",
+        "url": "https://www.apa.org/monitor/2023/07/psychologists-preventing-teen-suicide"
+    },
+    {
+        "id": 2,
+        "title": "The Mental Health Crisis in America: An Overview",
+        "publication_date": "June 2023",
+        "author": "National Alliance on Mental Illness (NAMI)",
+        "summary": "An overview of the mental health crisis in the U.S., exploring factors contributing to the increase in mental health issues and the need for systemic change.",
+        "url": "https://www.nami.org/Blogs/NAMI-Blog/June-2023/The-Mental-Health-Crisis-in-America-An-Overview"
+    },
+    {
+        "id": 3,
+        "title": "Understanding the Link Between Nutrition and Mental Health",
+        "publication_date": "May 2023",
+        "author": "Psychology Today",
+        "summary": "This article reviews recent research on how nutrition impacts mental health, suggesting dietary changes to improve mental well-being.",
+        "url": "https://www.psychologytoday.com/us/blog/the-new-mental-health/202305/understanding-the-link-between-nutrition-and-mental-health"
+    },
+    {
+        "id": 4,
+        "title": "Loneliness and Mental Health: A Public Health Crisis",
+        "publication_date": "May 2023",
+        "author": "Harvard Public Health",
+        "summary": "A discussion on how loneliness affects mental health, emphasizing its recognition as a public health issue and suggesting ways to combat it.",
+        "url": "https://www.hsph.harvard.edu/news/hsph-in-the-news/loneliness-mental-health-public-health-crisis/"
+    },
+    {
+        "id": 5,
+        "title": "The Benefits of Nature for Mental Health",
+        "publication_date": "April 2023",
+        "author": "Mental Health Foundation",
+        "summary": "Exploring the mental health benefits of spending time in nature, this article provides insights into how nature positively affects mental well-being.",
+        "url": "https://www.mentalhealth.org.uk/a-to-z/n/nature-and-mental-health"
+    },
+    {
+        "id": 6,
+        "title": "Workplace Mental Health: Strategies for Improvement",
+        "publication_date": "April 2023",
+        "author": "American Psychological Association",
+        "summary": "An exploration of workplace mental health strategies, emphasizing the role of employers in supporting employee mental well-being.",
+        "url": "https://www.apa.org/monitor/2023/04/workplace-mental-health"
+    },
+    {
+        "id": 7,
+        "title": "Mental Health and Technology: A Double-Edged Sword",
+        "publication_date": "March 2023",
+        "author": "The Lancet Psychiatry",
+        "summary": "This article examines how technology can both positively and negatively impact mental health, discussing potential solutions.",
+        "url": "https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(23)00058-5/fulltext"
+    },
+    {
+        "id": 8,
+        "title": "The Role of Exercise in Mental Health Recovery",
+        "publication_date": "February 2023",
+        "author": "BMC Psychiatry",
+        "summary": "Research highlights the significant role of exercise in the recovery process for individuals dealing with mental health issues.",
+        "url": "https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-023-04593-7"
+    },
+    {
+        "id": 9,
+        "title": "Exploring the Impact of Childhood Trauma on Adult Mental Health",
+        "publication_date": "January 2023",
+        "author": "Child Mind Institute",
+        "summary": "This article explores how childhood trauma can lead to long-term mental health issues in adulthood and discusses treatment options.",
+        "url": "https://childmind.org/article/impact-of-childhood-trauma-on-adult-mental-health/"
+    },
+    {
+        "id": 10,
+        "title": "Mental Health Stigma: Progress and Challenges",
+        "publication_date": "January 2023",
+        "author": "World Health Organization",
+        "summary": "An overview of the progress made in reducing mental health stigma and the ongoing challenges that remain.",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-stigma"
+    },
+    {
+        "id": 11,
+        "title": "Mindfulness and Mental Health: What the Science Says",
+        "publication_date": "December 2022",
+        "author": "Psychology Today",
+        "summary": "A review of scientific evidence supporting the effectiveness of mindfulness practices in improving mental health outcomes.",
+        "url": "https://www.psychologytoday.com/us/blog/mindful-therapy/202212/mindfulness-and-mental-health-what-the-science-says"
+    },
+    {
+        "id": 12,
+        "title": "Understanding Anxiety Disorders in Children",
+        "publication_date": "November 2022",
+        "author": "American Academy of Pediatrics",
+        "summary": "An informative article on the types of anxiety disorders children can experience and effective coping strategies.",
+        "url": "https://pediatrics.aappublications.org/content/early/2022/11/28/peds.2022-046712"
+    },
+    {
+        "id": 13,
+        "title": "The Connection Between Sleep and Mental Health",
+        "publication_date": "October 2022",
+        "author": "Sleep Foundation",
+        "summary": "Explores how sleep quality impacts mental health, highlighting the importance of good sleep hygiene.",
+        "url": "https://www.sleepfoundation.org/mental-health"
+    },
+    {
+        "id": 14,
+        "title": "How Social Media Impacts Mental Health",
+        "publication_date": "September 2022",
+        "author": "Harvard Business Review",
+        "summary": "An examination of the effects of social media on mental health, with tips for healthier social media habits.",
+        "url": "https://hbr.org/2022/09/how-social-media-impacts-mental-health"
+    },
+    {
+        "id": 15,
+        "title": "Coping with Burnout: Strategies for Recovery",
+        "publication_date": "August 2022",
+        "author": "American Psychological Association",
+        "summary": "Discusses the signs of burnout and practical strategies for recovery and prevention.",
+        "url": "https://www.apa.org/news/press/releases/stress/2022/burnout-strategies"
+    },
+    {
+        "id": 16,
+        "title": "Psychedelics and Mental Health: The Latest Research",
+        "publication_date": "July 2022",
+        "author": "Johns Hopkins Medicine",
+        "summary": "A review of recent studies exploring the therapeutic potential of psychedelics in treating mental health disorders.",
+        "url": "https://www.hopkinsmedicine.org/news/articles/psychedelics-and-mental-health-the-latest-research"
+    },
+    {
+        "id": 17,
+        "title": "Understanding PTSD: Causes and Treatments",
+        "publication_date": "June 2022",
+        "author": "National Institute of Mental Health",
+        "summary": "An overview of PTSD, including causes, symptoms, and current treatment options.",
+        "url": "https://www.nimh.nih.gov/health/publications/post-traumatic-stress-disorder-ptsd"
+    },
+    {
+        "id": 18,
+        "title": "The Importance of Mental Health in Schools",
+        "publication_date": "May 2022",
+        "author": "National Education Association",
+        "summary": "This article emphasizes the need for mental health resources in schools to support students' well-being.",
+        "url": "https://www.nea.org/advocating-for-change/new-from-nea/importance-mental-health-schools"
+    },
+    {
+        "id": 19,
+        "title": "Exploring the Mental Health Benefits of Creative Arts",
+        "publication_date": "April 2022",
+        "author": "American Art Therapy Association",
+        "summary": "Discusses how creative arts therapies can improve mental health and emotional well-being.",
+        "url": "https://arttherapy.org/news/mental-health-benefits-of-creative-arts/"
+    },
+    {
+        "id": 20,
+        "title": "Resilience and Mental Health: Building Strength",
+        "publication_date": "March 2022",
+        "author": "American Psychological Association",
+        "summary": "Explores the concept of resilience and its critical role in mental health and well-being.",
+        "url": "https://www.apa.org/news/press/releases/stress/2022/resilience-mental-health"
+    }
   ]
+
 }
