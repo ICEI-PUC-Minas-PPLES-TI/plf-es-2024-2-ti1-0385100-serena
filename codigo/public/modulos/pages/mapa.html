@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa de Psicólogos</title>
+
+  <!-- Incluindo o CSS do Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+  <style>
+    /* Define a altura para o mapa */
+    #map {
+      height: 100vh;
+      width: 100%;
+    }
+  </style>
+
+  <!-- Incluindo o JavaScript do Leaflet -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+  <script>
+    async function fetchPsicologos() {
+      try {
+        // Fazendo a requisição para o JSON Server
+        const response = await fetch('http://localhost:3000/api/psicologos');
+        const psicologos = await response.json();
+        return psicologos;
+      } catch (error) {
+        console.error('Erro ao buscar os psicólogos:', error);
+      }
+    }
+
+    async function initMap() {
+      // Criando o mapa centrado em Belo Horizonte
+      const map = L.map('map').setView([-19.9245, -43.9352], 13);
+
+      // Adicionando camada de tiles (mapa visual)
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+
+      // Obtém os psicólogos via API
+      const psicologos = await fetchPsicologos();
+
+      // Loop para adicionar os marcadores dos psicólogos
+      psicologos.forEach(psicologo => {
+        const marker = L.marker([psicologo.lat, psicologo.long]).addTo(map);
+        
+        // Exibindo um popup com informações sobre o psicólogo
+        marker.bindPopup(`
+          <h3>${psicologo.descricao}</h3>
+          <p><strong>Endereço:</strong> ${psicologo.endereco}</p>
+          <p><strong>Cidade:</strong> ${psicologo.cidade}</p>
+          <a href="${psicologo.url}" target="_blank">Ver mais detalhes</a>
+        `);
+      });
+    }
+
+    // Chama a função para inicializar o mapa ao carregar a página
+    window.onload = initMap;
+  </script>
 </head>
 <body>
-    <h1>PsyMap</h1>
+  <h1>Mapa de Psicólogos em Belo Horizonte</h1>
+  <div id="map"></div>
 </body>
 </html>
