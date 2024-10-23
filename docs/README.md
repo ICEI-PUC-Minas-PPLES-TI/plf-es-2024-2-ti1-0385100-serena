@@ -67,14 +67,22 @@ e se concentrar em algo como estudos.
 >   - Como disponibilizar informações sobre saúde mental?
 >   - Como lidar com a discriminação, que impede indivíduos de procurarem ajuda?
 >   - Professionais da saúde estão atendendo as necessidades de seus pacientes corretamente?
->   - ### Certezas
+>   - 
+>   ### Certezas
 >   - OMS - quase 10% da população brasileira tem transtorno de ansiedade
 >   - Existe dificuldade em determinar a validez de métodos de tratamento
 >   - Relação com suicídio
->criação de Políticas - Públicas sobre saúde mental
-- Subdiagnósticos de transtornos mentais.
->- Condições Econômicas afetam o acesso à tratamento e diagnóstico
->- Alunos não aprendem sobre como lidar com problemas emocionais e psicológicos no ensino básico ou médio
+>   - criação de Políticas - Públicas sobre saúde mental
+>   - Subdiagnósticos de transtornos mentais.
+>   - Condições Econômicas afetam o acesso à tratamento e diagnóstico
+>   - Alunos não aprendem sobre como lidar com problemas emocionais e psicológicos no ensino básico ou médio
+>   - 
+>   ### Suposições
+>   -	As gerações mais jovens, por terem mais acesso à internet, estão melhor informadas sobre saúde mental.
+>   -	Problemas de saúde mental nem sempre são evidentes, o que pode levar a negligência da doença mental.
+>   -	Pessoas modernas vivem vidas estressantes e tumultuadas.
+>   -	Para alguns aumentar a disponibilidade de serviços já seria suficiente para combater essa problemática, porém a falta de informação ainda seria um obstáculo significativo para a utilização desses serviços.
+
 > * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema
 > * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
 > * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
