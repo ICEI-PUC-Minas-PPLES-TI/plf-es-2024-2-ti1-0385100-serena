@@ -76,6 +76,15 @@ e se concentrar em algo como estudos.
 >- Condições Econômicas afetam o acesso à tratamento e diagnóstico
 >- Alunos não aprendem sobre como lidar com problemas emocionais e psicológicos no ensino básico ou médio
 > * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema
+> * Órgãos governamentais e formuladores de políticas públicas
+> * Familiares e cuidadores
+> * OPAS/OMS
+> * Pacientes Jovens / Estudant
+> * Lideres locais e grupos comunitários
+> *Aplicativos de saúde mental (BetterHelp, talkspace..
+> *Mídia Social: Instagram, Facebook...
+> *Pacientes com Difícieis condições socioecônomicas
+> *Lideres locais e grupos comunitários
 > * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
 > * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
 ## Etapa de Definição
