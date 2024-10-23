@@ -35,5 +35,118 @@
       "email": "deignura@gmaiç.com",
       "id": 5
     }
+  ],
+
+  "psicologos": [
+    {
+      "id": 1,
+      "descricao": "Especialista em terapia cognitivo-comportamental",
+      "endereco": "Rua Alagoas, 1314, Savassi",
+      "favorito": true,
+      "cidade": "Belo Horizonte",
+      "lat": -19.9350,
+      "long": -43.9336,
+      "url": "https://exemplo.com/psicologo1",
+      "cor": "#FF5733"
+    },
+    {
+      "id": 2,
+      "descricao": "Atendimento infantil e de adolescentes",
+      "endereco": "Av. do Contorno, 6523, Funcionários",
+      "favorito": false,
+      "cidade": "Belo Horizonte",
+      "lat": -19.9336,
+      "long": -43.9267,
+      "url": "https://exemplo.com/psicologo2",
+      "cor": "#33FF57"
+    },
+    {
+      "id": 3,
+      "descricao": "Psicanálise e terapia breve",
+      "endereco": "Rua Paraíba, 1187, Savassi",
+      "favorito": true,
+      "cidade": "Belo Horizonte",
+      "lat": -19.9375,
+      "long": -43.9342,
+      "url": "https://exemplo.com/psicologo3",
+      "cor": "#5733FF"
+    },
+    {
+      "id": 4,
+      "descricao": "Terapia focada em ansiedade e depressão",
+      "endereco": "Av. Afonso Pena, 3926, Cruzeiro",
+      "favorito": false,
+      "cidade": "Belo Horizonte",
+      "lat": -19.9381,
+      "long": -43.9245,
+      "url": "https://exemplo.com/psicologo4",
+      "cor": "#33C4FF"
+    },
+    {
+      "id": 5,
+      "descricao": "Terapia familiar e de casais",
+      "endereco": "Rua Levindo Lopes, 358, Funcionários",
+      "favorito": true,
+      "cidade": "Belo Horizonte",
+      "lat": -19.9370,
+      "long": -43.9311,
+      "url": "https://exemplo.com/psicologo5",
+      "cor": "#FF33A5"
+    },
+    {
+      "id": 6,
+      "descricao": "Psicoterapia humanista e existencial",
+      "endereco": "Rua Rio Grande do Norte, 1054, Savassi",
+      "favorito": false,
+      "cidade": "Belo Horizonte",
+      "lat": -19.9363,
+      "long": -43.9340,
+      "url": "https://exemplo.com/psicologo6",
+      "cor": "#FFC233"
+    },
+    {
+      "id": 7,
+      "descricao": "Terapia ocupacional e de desenvolvimento pessoal",
+      "endereco": "Rua Fernandes Tourinho, 480, Funcionários",
+      "favorito": true,
+      "cidade": "Belo Horizonte",
+      "lat": -19.9339,
+      "long": -43.9304,
+      "url": "https://exemplo.com/psicologo7",
+      "cor": "#8D33FF"
+    },
+    {
+      "id": 8,
+      "descricao": "Terapia para controle do estresse e burnout",
+      "endereco": "Rua Maranhão, 812, Funcionários",
+      "favorito": false,
+      "cidade": "Belo Horizonte",
+      "lat": -19.9325,
+      "long": -43.9285,
+      "url": "https://exemplo.com/psicologo8",
+      "cor": "#FF5733"
+    },
+    {
+      "id": 9,
+      "descricao": "Psicoterapia de orientação jungiana",
+      "endereco": "Rua Sergipe, 1420, Savassi",
+      "favorito": true,
+      "cidade": "Belo Horizonte",
+      "lat": -19.9368,
+      "long": -43.9349,
+      "url": "https://exemplo.com/psicologo9",
+      "cor": "#33FFBD"
+    },
+    {
+      "id": 10,
+      "descricao": "Psicoterapia integrativa e mindfulness",
+      "endereco": "Av. Brasil, 1580, Santa Efigênia",
+      "favorito": false,
+      "cidade": "Belo Horizonte",
+      "lat": -19.9243,
+      "long": -43.9207,
+      "url": "https://exemplo.com/psicologo10",
+      "cor": "#FF33E2"
+    }
   ]
 }
