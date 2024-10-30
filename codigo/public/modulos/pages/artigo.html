@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Artigos - Serena</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header">
+            <h1>Artigos</h1>
+        </div>
+        <div class="search-filters">
+            <input type="text" id="searchBar" placeholder="Pesquisar artigo...">
+            <select id="filterSelect">
+                <option value="">Filtrar por autor</option>
+                <option value="Ministério da Saúde">Ministério da Saúde</option>
+                <option value="Silva, T.">Silva, T.</option>
+                <option value="Santos, M. A.">Santos, M. A.</option>
+                <option value="Carvalho, J. P.">Carvalho, J. P.</option>
+                <option value="Oliveira, T.">Oliveira, T.</option>
+                <option value="Alves, F.">Alves, F.</option>
+                <option value="Martins, A.">Martins, A.</option>
+                <option value="Ferreira, L.">Ferreira, L.</option>
+                <option value="Pereira, R.">Pereira, R.</option>
+                <option value="Lima, R.">Lima, R.</option>
+                <option value="Souza, A.">Souza, A.</option>
+                <option value="Rodrigues, C.">Rodrigues, C.</option>
+                <option value="Nogueira, D.">Nogueira, D.</option>
+                <option value="Cruz, E.">Cruz, E.</option>
+                <option value="Lopes, F.">Lopes, F.</option>
+                <option value="Santos, G.">Santos, G.</option>
+                <option value="Marques, H.">Marques, H.</option>
+                <option value="Barbosa, I.">Barbosa, I.</option>
+                <option value="Gomes, J.">Gomes, J.</option>
+                <option value="Tavares, K.">Tavares, K.</option>
+            </select>
+        </div>
+
+        <div id="listaArtigos"></div>
+
+
+        <div id="articlesContainer" class="articles-container"></div>
+        
+    </div>
+    <script>
+        // Função para carregar artigos do db.json
+        async function loadArticles() {
+            try {
+                const response = await fetch('../../../db/db.json');
+                const data = await response.json();
+                displayArticles(data.artigos);
+            } catch (error) {
+                console.error('Erro ao carregar os artigos:', error);
+            }
+        }
+
+        // Função para exibir artigos na interface
+        function displayArticles(articles) {
+            const articlesContainer = document.getElementById('articlesContainer');
+            articlesContainer.innerHTML = ''; // Limpa o container antes de adicionar novos artigos
+
+            articles.forEach(article => {
+                const articleBox = document.createElement('div');
+                articleBox.className = 'article-box';
+
+                articleBox.innerHTML = `
+                    <h2 class="article-title">${article.nome}</h2>
+                    <p class="article-date">${article.data_publicacao}</p>
+                    <p class="article-summary">${article.resumo}</p>
+                    <a href="${article.link}" target="_blank">
+                        <button class="read-button">Ler artigo</button>
+                    </a>
+                `;
+
+                articlesContainer.appendChild(articleBox);
+            });
+        }
+
+        // Chama a função para carregar os artigos ao carregar a página
+        loadArticles();
+    </script>
 </body>
 </html>
