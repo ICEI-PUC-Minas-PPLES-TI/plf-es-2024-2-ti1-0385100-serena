@@ -1,11 +1,25 @@
 document.addEventListener('DOMContentLoaded', () => {
     const articlesContainer = document.getElementById('articlesContainer');
+    const searchBar = document.getElementById('searchBar');
+    const filterSelect = document.getElementById('filterSelect');
     
     // Carregar artigos do db.json
     fetch('../../../db/db.json')
         .then(response => response.json())
         .then(data => {
             const articles = data.artigos; 
+            displayArticles(articles); // Chama a função para exibir os artigos
+            initializeFilters(articles); // Inicializa filtros
+        })
+        .catch(error => {
+            console.error('Erro ao carregar os artigos:', error);
+            articlesContainer.innerHTML = '<p>Erro ao carregar artigos.</p>';
+        });
+
+    // Função para exibir artigos na interface
+    function displayArticles(articles) {
+        articlesContainer.innerHTML = ''; // Limpa o container antes de adicionar novos artigos
+
         articles.forEach(article => {
             const articleBox = document.createElement('div');
             articleBox.className = 'article-box';
