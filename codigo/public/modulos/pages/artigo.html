@@ -44,42 +44,7 @@
         <div id="articlesContainer" class="articles-container"></div>
         
     </div>
-    <script>
-        // Função para carregar artigos do db.json
-        async function loadArticles() {
-            try {
-                const response = await fetch('../../../db/db.json');
-                const data = await response.json();
-                displayArticles(data.artigos);
-            } catch (error) {
-                console.error('Erro ao carregar os artigos:', error);
-            }
-        }
+    <script src="script.js"></script>
 
-        // Função para exibir artigos na interface
-        function displayArticles(articles) {
-            const articlesContainer = document.getElementById('articlesContainer');
-            articlesContainer.innerHTML = ''; // Limpa o container antes de adicionar novos artigos
-
-            articles.forEach(article => {
-                const articleBox = document.createElement('div');
-                articleBox.className = 'article-box';
-
-                articleBox.innerHTML = `
-                    <h2 class="article-title">${article.nome}</h2>
-                    <p class="article-date">${article.data_publicacao}</p>
-                    <p class="article-summary">${article.resumo}</p>
-                    <a href="${article.link}" target="_blank">
-                        <button class="read-button">Ler artigo</button>
-                    </a>
-                `;
-
-                articlesContainer.appendChild(articleBox);
-            });
-        }
-
-        // Chama a função para carregar os artigos ao carregar a página
-        loadArticles();
-    </script>
 </body>
 </html>
