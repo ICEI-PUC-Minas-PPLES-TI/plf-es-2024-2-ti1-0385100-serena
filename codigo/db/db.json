@@ -163,22 +163,22 @@
     
     {
       "id": 2,
-      "nome": "Os Efeitos do Estresse na Saúde Mental",
-      "data_publicacao": "2023",
-      "autor": "Silva, T.",
-      "resumo": "Estudo sobre a relação entre estresse e saúde mental.",
-      "referencia": "Revista Brasileira de Terapias Cognitivas",
-      "url": "https://www.rbtc.com.br/artigo/estresse-saude-mental"
+      "nome": "OMS destaca necessidade urgente de transformar a saúde mental e atenção",
+      "data_publicacao": "17 de junho de 2022",
+      "autor": "Organização Mundial da Saúde",
+      "resumo": "A OMS enfatiza a importância de transformar a saúde mental e a atenção, destacando as necessidades urgentes em saúde mental ao redor do mundo.",
+      "url": "https://www.paho.org/pt/noticias/17-6-2022-oms-destaca-necessidade-urgente-transformar-saude-mental-e-atencao"
     },
+    
     {
       "id": 3,
-      "nome": "A Importância da Psicologia na Saúde Mental",
-      "data_publicacao": "2023",
-      "autor": "Santos, M. A.",
-      "resumo": "Discussão sobre o papel da psicologia na promoção da saúde mental.",
-      "referencia": "Cadernos de Saúde Pública",
-      "url": "https://www.csp.com.br/artigo/importancia-psicologia"
+      "nome": "Saúde Mental - Hospital Israelita Albert Einstein",
+      "data_publicacao": "Data não especificada no site",
+      "autor": "Hospital Israelita Albert Einstein",
+      "resumo": "Informações abrangentes sobre saúde mental, incluindo transtornos, cuidados e tratamento.",
+      "url": "https://www.einstein.br/saudemental"
     },
+    
     {
       "id": 4,
       "nome": "Transtornos de Ansiedade: Diagnóstico e Tratamento",
