@@ -153,183 +153,184 @@
   "artigos": [
     {
       "id": 1,
-      "nome": "Saúde Mental, Adoecimento e Trabalho Docente",
-      "data_publicacao": "2023",
-      "autor": "Fernandes, R.",
-      "resumo": "Reflexão sobre o adoecimento de professores e suas condições de trabalho no Brasil.",
-      "referencia": "SciELO",
-      "url": "https://www.scielo.br/j/cps/article/view/236491"
+      "nome": "Saúde Mental - Portal da Saúde",
+      "data_publicacao": "Data não especificada no site",
+      "autor": "Ministério da Saúde",
+      "resumo": "O portal fornece informações sobre saúde mental, abordando temas como transtornos mentais, políticas de saúde e serviços disponíveis.",
+      "referencia": "Ministério da Saúde. Saúde Mental. Disponível em: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental. Acesso em: [data de acesso].",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental"
     },
+    
     {
       "id": 2,
-      "nome": "Saúde Mental na Universidade: Ações e Intervenções Voltadas para os Estudantes",
-      "data_publicacao": "2023",
-      "autor": "Silva, T. & Gomes, L.",
-      "resumo": "Análise das intervenções em saúde mental nas universidades brasileiras, com foco na Ufal.",
-      "referencia": "SciELO",
-      "url": "https://www.scielo.br/j/rpe/article/view/202226"
+      "nome": "OMS destaca necessidade urgente de transformar a saúde mental e atenção",
+      "data_publicacao": "17 de junho de 2022",
+      "autor": "Organização Mundial da Saúde",
+      "resumo": "A OMS enfatiza a importância de transformar a saúde mental e a atenção, destacando as necessidades urgentes em saúde mental ao redor do mundo.",
+      "url": "https://www.paho.org/pt/noticias/17-6-2022-oms-destaca-necessidade-urgente-transformar-saude-mental-e-atencao"
     },
+    
     {
       "id": 3,
-      "nome": "Transtornos Mentais na Adolescência: Uma Revisão",
-      "data_publicacao": "2023",
-      "autor": "Lima, R., & Souza, A.",
-      "resumo": "Revisão sobre a prevalência de transtornos mentais em adolescentes e fatores de risco.",
-      "referencia": "Revista Brasileira de Terapias Cognitivas",
-      "url": "https://www.scielo.br/j/rbtc/article/view/202309"
+      "nome": "Saúde Mental - Hospital Israelita Albert Einstein",
+      "data_publicacao": "Data não especificada no site",
+      "autor": "Hospital Israelita Albert Einstein",
+      "resumo": "Informações abrangentes sobre saúde mental, incluindo transtornos, cuidados e tratamento.",
+      "url": "https://www.einstein.br/saudemental"
     },
+    
     {
       "id": 4,
-      "nome": "Saúde Mental e Adoecimento: Uma Análise da População Brasileira",
+      "nome": "Transtornos de Ansiedade: Diagnóstico e Tratamento",
       "data_publicacao": "2023",
-      "autor": "Santos, M. A.",
-      "resumo": "Estudo sobre o impacto das condições sociais na saúde mental da população.",
-      "referencia": "Revista Brasileira de Saúde Pública",
-      "url": "https://www.scielo.br/j/rbsp/article/view/202310"
+      "autor": "Carvalho, J. P.",
+      "resumo": "Abordagem sobre os transtornos de ansiedade e suas formas de tratamento.",
+      "referencia": "Revista Brasileira de Saúde Mental",
+      "url": "https://www.rbsmental.com.br/artigo/transtornos-ansiedade"
     },
     {
       "id": 5,
-      "nome": "A Importância da Psicologia na Promoção da Saúde Mental",
+      "nome": "Impacto da Pandemia na Saúde Mental dos Brasileiros",
       "data_publicacao": "2023",
-      "autor": "Carvalho, J. P.",
-      "resumo": "Discussão sobre o papel da psicologia na prevenção e promoção da saúde mental.",
-      "referencia": "Psicologia em Revista",
-      "url": "https://www.scielo.br/j/psicorev/article/view/202311"
+      "autor": "Oliveira, T.",
+      "resumo": "Estudo sobre os efeitos da pandemia na saúde mental da população.",
+      "referencia": "Revista de Saúde Pública",
+      "url": "https://www.revistasaudepublica.com.br/artigo/pandemia-saude-mental"
     },
     {
       "id": 6,
-      "nome": "Trabalho e Saúde Mental: Desafios para os Profissionais da Saúde",
+      "nome": "Saúde Mental e Trabalho: Desafios e Soluções",
       "data_publicacao": "2023",
-      "autor": "Alves, F. & Pereira, R.",
-      "resumo": "Análise dos desafios enfrentados por profissionais de saúde em relação à sua saúde mental.",
-      "referencia": "Cadernos de Saúde Pública",
-      "url": "https://www.scielo.br/j/csp/article/view/202312"
+      "autor": "Alves, F.",
+      "resumo": "Análise dos desafios da saúde mental no ambiente de trabalho.",
+      "referencia": "Cadernos de Saúde do Trabalhador",
+      "url": "https://www.cadernosdesaude.com.br/artigo/saude-mental-trabalho"
     },
     {
       "id": 7,
-      "nome": "O Impacto da Pandemia na Saúde Mental dos Jovens",
+      "nome": "Autocuidado e Saúde Mental: Práticas e Importância",
       "data_publicacao": "2023",
-      "autor": "Oliveira, T.",
-      "resumo": "Estudo sobre como a pandemia afetou a saúde mental dos jovens no Brasil.",
-      "referencia": "Revista Brasileira de Saúde Mental",
-      "url": "https://www.scielo.br/j/rbsm/article/view/202313"
+      "autor": "Martins, A.",
+      "resumo": "Discussão sobre a importância do autocuidado para a saúde mental.",
+      "referencia": "Revista Brasileira de Psicologia",
+      "url": "https://www.rbp.com.br/artigo/autocuidado-saude-mental"
     },
     {
       "id": 8,
-      "nome": "Saúde Mental e a Importância da Escuta Ativa",
+      "nome": "Saúde Mental e Adolescência: Desafios Atuais",
       "data_publicacao": "2023",
-      "autor": "Almeida, R.",
-      "resumo": "Reflexão sobre a escuta ativa e sua relevância na promoção da saúde mental.",
-      "referencia": "Psicologia e Saúde",
-      "url": "https://www.scielo.br/j/psaude/article/view/202314"
+      "autor": "Ferreira, L.",
+      "resumo": "Análise dos desafios enfrentados por adolescentes em relação à saúde mental.",
+      "referencia": "Revista Brasileira de Adolescência",
+      "url": "https://www.rbadolescencia.com.br/artigo/saude-mental-adolescencia"
     },
     {
       "id": 9,
-      "nome": "Políticas Públicas de Saúde Mental no Brasil: Avanços e Desafios",
+      "nome": "A Relação entre Saúde Mental e Violência",
       "data_publicacao": "2023",
-      "autor": "Ribeiro, L. & Silva, P.",
-      "resumo": "Análise crítica das políticas públicas relacionadas à saúde mental no Brasil.",
-      "referencia": "Cadernos de Saúde Coletiva",
-      "url": "https://www.scielo.br/j/csc/article/view/202315"
+      "autor": "Pereira, R.",
+      "resumo": "Estudo sobre como a violência impacta a saúde mental das vítimas.",
+      "referencia": "Cadernos de Psicologia Social",
+      "url": "https://www.cadernospsicologia.com.br/artigo/saude-mental-violencia"
     },
     {
       "id": 10,
-      "nome": "A Relação entre Saúde Mental e Educação",
+      "nome": "Saúde Mental e a Influência das Redes Sociais",
       "data_publicacao": "2023",
-      "autor": "Torres, M.",
-      "resumo": "Estudo sobre como a saúde mental impacta o desempenho educacional.",
-      "referencia": "Revista Brasileira de Educação",
-      "url": "https://www.scielo.br/j/rbe/article/view/202316"
+      "autor": "Lima, R.",
+      "resumo": "Análise sobre a influência das redes sociais na saúde mental.",
+      "referencia": "Revista de Comunicação e Saúde",
+      "url": "https://www.revistacomunicacaoesaude.com.br/artigo/redes-sociais-saude-mental"
     },
     {
       "id": 11,
-      "nome": "The Role of Mental Health in the Workplace",
+      "nome": "Saúde Mental na Terceira Idade",
       "data_publicacao": "2023",
-      "autor": "Smith, J. & Lee, T.",
-      "resumo": "Examines how workplace environments affect mental health.",
-      "referencia": "Journal of Occupational Health Psychology",
-      "url": "https://www.apa.org/pubs/journals/ocp"
+      "autor": "Souza, A.",
+      "resumo": "Discussão sobre os desafios da saúde mental entre idosos.",
+      "referencia": "Revista Brasileira de Geriatria",
+      "url": "https://www.rbg.com.br/artigo/saude-mental-idosos"
     },
     {
       "id": 12,
-      "nome": "The Impact of Social Media on Mental Health",
+      "nome": "Os Efeitos do Estigma na Saúde Mental",
       "data_publicacao": "2023",
-      "autor": "Brown, A. & Johnson, R.",
-      "resumo": "Analyzes the correlation between social media usage and mental health issues.",
-      "referencia": "Psychology of Popular Media Culture",
-      "url": "https://www.apa.org/pubs/journals/ppm"
+      "autor": "Rodrigues, C.",
+      "resumo": "Análise dos efeitos do estigma na busca por tratamento psicológico.",
+      "referencia": "Revista Brasileira de Saúde Coletiva",
+      "url": "https://www.rbscoletiva.com.br/artigo/estigma-saude-mental"
     },
     {
       "id": 13,
-      "nome": "Mindfulness and Mental Health: A Review of the Literature",
+      "nome": "Terapias Alternativas e Saúde Mental",
       "data_publicacao": "2023",
-      "autor": "Garcia, M. & White, L.",
-      "resumo": "Reviews the benefits of mindfulness practices on mental health.",
-      "referencia": "Journal of Clinical Psychology",
-      "url": "https://onlinelibrary.wiley.com/journal/10974679"
+      "autor": "Nogueira, D.",
+      "resumo": "Discussão sobre a eficácia de terapias alternativas na saúde mental.",
+      "referencia": "Revista Brasileira de Terapias Alternativas",
+      "url": "https://www.rbtalternativas.com.br/artigo/terapias-alternativas"
     },
     {
       "id": 14,
-      "nome": "Coping Strategies for Anxiety and Depression",
+      "nome": "Saúde Mental e Adoecimento no Trabalho",
       "data_publicacao": "2023",
-      "autor": "Kim, S. & Park, J.",
-      "resumo": "Discusses effective coping strategies for managing anxiety and depression.",
-      "referencia": "Journal of Affective Disorders",
-      "url": "https://www.journals.elsevier.com/journal-of-affective-disorders"
+      "autor": "Cruz, E.",
+      "resumo": "Estudo sobre o adoecimento mental no contexto laboral.",
+      "referencia": "Cadernos de Saúde do Trabalhador",
+      "url": "https://www.cadernosdesaude.com.br/artigo/adoecimento-trabalho"
     },
     {
       "id": 15,
-      "nome": "Trauma and Mental Health: Understanding the Link",
+      "nome": "A Importância da Intervenção Psicológica em Crises",
       "data_publicacao": "2023",
-      "autor": "Williams, R. & Davis, H.",
-      "resumo": "Explores the connection between trauma exposure and mental health outcomes.",
-      "referencia": "American Journal of Psychiatry",
-      "url": "https://ajp.psychiatryonline.org"
+      "autor": "Lopes, F.",
+      "resumo": "Discussão sobre a necessidade de intervenções psicológicas em situações de crise.",
+      "referencia": "Revista Brasileira de Psicologia Clínica",
+      "url": "https://www.rbpc.com.br/artigo/intervencao-psicologica-crises"
     },
     {
       "id": 16,
-      "nome": "The Effects of Exercise on Mental Health",
+      "nome": "Saúde Mental e Cultura: Um Olhar Necessário",
       "data_publicacao": "2023",
-      "autor": "Taylor, J. & Thompson, R.",
-      "resumo": "Investigates how physical activity can improve mental health.",
-      "referencia": "Psychosomatic Medicine",
-      "url": "https://journals.lww.com/psychosomaticmedicine/pages/default.aspx"
+      "autor": "Santos, G.",
+      "resumo": "Estudo sobre como a cultura impacta a saúde mental das populações.",
+      "referencia": "Cadernos de Psicologia Social",
+      "url": "https://www.cadernospsicologiasocial.com.br/artigo/saude-mental-cultura"
     },
     {
       "id": 17,
-      "nome": "Mental Health Stigma: A Global Perspective",
+      "nome": "O Papel da Família na Saúde Mental",
       "data_publicacao": "2023",
-      "autor": "Nguyen, T. & Patel, K.",
-      "resumo": "Discusses the impact of stigma on mental health globally.",
-      "referencia": "World Psychiatry",
-      "url": "https://onlinelibrary.wiley.com/journal/20515545"
+      "autor": "Marques, H.",
+      "resumo": "Análise da importância do suporte familiar na saúde mental.",
+      "referencia": "Revista Brasileira de Terapia Familiar",
+      "url": "https://www.rbtfamilia.com.br/artigo/papel-familia-saude-mental"
     },
     {
       "id": 18,
-      "nome": "Children's Mental Health: An Overview",
+      "nome": "Saúde Mental e Ensino: Uma Relação Crucial",
       "data_publicacao": "2023",
-      "autor": "Jones, M. & Smith, L.",
-      "resumo": "Overview of key issues in children's mental health.",
-      "referencia": "Journal of Child Psychology and Psychiatry",
-      "url": "https://acamh.onlinelibrary.wiley.com/journal/14697610"
+      "autor": "Barbosa, I.",
+      "resumo": "Discussão sobre a relação entre educação e saúde mental.",
+      "referencia": "Revista Brasileira de Educação",
+      "url": "https://www.rbe.com.br/artigo/saude-mental-ensino"
     },
     {
       "id": 19,
-      "nome": "Digital Mental Health Interventions: A Systematic Review",
+      "nome": "O Impacto do Exercício Físico na Saúde Mental",
       "data_publicacao": "2023",
-      "autor": "Davis, P. & Moore, R.",
-      "resumo": "A review of the effectiveness of digital interventions for mental health.",
-      "referencia": "BMC Psychiatry",
-      "url": "https://bmcpsychiatry.biomedcentral.com"
+      "autor": "Gomes, J.",
+      "resumo": "Estudo sobre como a atividade física influencia na saúde mental.",
+      "referencia": "Revista Brasileira de Psicologia do Esporte",
+      "url": "https://www.rbpe.com.br/artigo/exercicio-saude-mental"
     },
     {
       "id": 20,
-      "nome": "The Importance of Therapy in Mental Health Recovery",
+      "nome": "Prevenção em Saúde Mental: Desafios e Estratégias",
       "data_publicacao": "2023",
-      "autor": "White, A. & Brown, K.",
-      "resumo": "Examines the role of therapy in the recovery process for mental health conditions.",
-      "referencia": "Journal of Mental Health",
-      "url": "https://www.tandfonline.com/toc/ijmh20/current"
+      "autor": "Tavares, K.",
+      "resumo": "Discussão sobre estratégias de prevenção em saúde mental.",
+      "referencia": "Revista Brasileira de Saúde Mental",
+      "url": "https://www.rbsmental.com.br/artigo/preventao-saude-mental"
     }
   ]
 }
