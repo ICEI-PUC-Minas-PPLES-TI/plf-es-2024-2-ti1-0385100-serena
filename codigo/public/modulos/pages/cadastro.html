@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Artigos</title>
+  <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Cadastro de Artigo</h1>
+    <form id="articleForm">
+      <label for="title">Título</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="date">Data de Publicação</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="author">Autor</label>
+      <input type="text" id="author" name="author" required>
+
+      <label for="summary">Resumo</label>
+      <textarea id="summary" name="summary" rows="4" required></textarea>
+
+      <label for="reference">Referência</label>
+      <input type="text" id="reference" name="reference" required>
+
+      <label for="url">URL do Artigo</label>
+      <input type="url" id="url" name="url" placeholder="https://exemplo.com/artigo" required>
+
+      <button type="submit">Cadastrar Artigo</button>
+    </form>
+  </div>
+
+  <script src="cadastro.js"></script>
+</body>
+</html>
