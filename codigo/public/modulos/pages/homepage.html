@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saúde Mental</title>
+  <style>
+    /* Estilos gerais */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #2e4c2f; /* Verde escuro para texto */
+      background-color: #eaf5ea; /* Fundo suave */
+    }
+
+    /* Cabeçalho */
+    header {
+      background-color: #4caf50; /* Verde médio */
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    header nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    header nav ul li {
+      margin-left: 20px;
+    }
+
+    header nav ul li a {
+      text-decoration: none;
+      color: white;
+      transition: color 0.3s;
+    }
+
+    header nav ul li a:hover {
+      color: #c8e6c9; /* Verde claro */
+    }
+
+    /* Seção Hero */
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background-image: url('https://images.unsplash.com/photo-1524758631624-e2822e304c36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHNhZnR5fGVufDB8fHx8MTY5MDg3NjczMg&ixlib=rb-1.2.1&q=80&w=1080'); /* Imagem tranquilizadora */
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+      color: #ffffff; /* Branco para destacar o texto */
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para legibilidade */
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin: 20px 0;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .hero .cta {
+      text-decoration: none;
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.2em;
+      transition: background-color 0.3s;
+    }
+
+    .hero .cta:hover {
+      background-color: #388e3c; /* Verde mais forte */
+    }
+
+    /* Benefícios */
+    .beneficios {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 20px;
+    }
+
+    .beneficios div {
+      background-color: #c8e6c9;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      width: 30%;
+    }
+
+    /* Depoimentos */
+    .depoimentos {
+      background-color: #a5d6a7;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .depoimentos blockquote {
+      font-style: italic;
+      margin: 20px auto;
+      color: #2e4c2f;
+    }
+
+    /* Blog */
+    .blog {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .blog h2 {
+      margin-bottom: 20px;
+    }
+
+    .blog .artigos {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .blog .artigo {
+      background-color: #c8e6c9;
+      border-radius: 8px;
+      padding: 20px;
+      width: 30%;
+      text-align: left;
+    }
+
+    /* Rodapé */
+    footer {
+      background-color: #4caf50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #c8e6c9;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">Serena</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="lembretes.html">Lembretes</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+       
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Bem-vindo à sua jornada de bem-estar</h1>
+    <p>Cuidar de sua saúde mental é essencial para uma vida plena.</p>
+    <a href="#servicos" class="cta">Comece Agora</a>
+  </section>
+
+  <!-- Benefícios -->
+  <section class="beneficios">
+    <div>
+        <a href="terapia.html"> Encontre um especialista próximo a você </a>
+
+      <p>Conecte-se com especialistas onde estiver.</p>
+    </div>
+    <div>
+      <h3>Meditação Guiada</h3>
+      <p>Relaxamento e equilíbrio emocional ao seu alcance.</p>
+    </div>
+    <div>
+      <h3>Chat de Suporte</h3>
+      <p>Partilhe e encontre apoio de outros usuários.</p>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section class="depoimentos">
+    <h2>O que nossos usuários dizem</h2>
+    <blockquote>"Essa plataforma mudou minha vida. Me sinto muito mais equilibrado e confiante."</blockquote>
+    <blockquote>"A meditação guiada é incrível. Recomendo a todos!"</blockquote>
+  </section>
+
+  <!-- Blog -->
+  <section class="blog">
+    <h2>Recursos Educativos</h2>
+    <div class="artigos">
+      <div class="artigo">
+        <h3>Como lidar com a ansiedade</h3>
+        <p>Dicas práticas para manter a calma no dia a dia.</p>
+      </div>
+      <div class="artigo">
+        <h3>Melhorando seu sono</h3>
+        <p>Estratégias simples para dormir melhor.</p>
+      </div>
+      <div class="artigo">
+        <h3>Benefícios da meditação</h3>
+        <p>Entenda como meditar pode transformar sua vida.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 Saúde Mental. Todos os direitos reservados.</p>
+    <p><a href="#termos">Termos de Uso</a> | <a href="#privacidade">Política de Privacidade</a></p>
+  </footer>
+
+</body>
+</html>
