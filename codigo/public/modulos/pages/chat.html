@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat de Apoio em Saúde Mental</title>
+  <style>
+    /* Estilo da interface do chat */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .chat-container {
+      width: 400px;
+      max-width: 90%;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .chat-header {
+      background-color: #1d6d4d;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .chat-rooms {
+      display: flex;
+      justify-content: space-around;
+      background-color: #e1e8ed;
+      padding: 10px;
+    }
+
+    .chat-rooms button {
+      background: #18885b;
+      border: none;
+      color: white;
+      padding: 8px 12px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .chat-messages {
+      height: 300px;
+      overflow-y: auto;
+      padding: 10px;
+      background-color: #fff;
+    }
+
+    .message {
+      margin: 5px 0;
+      padding: 8px;
+      background: #f1f9ff;
+      border-radius: 4px;
+      max-width: 70%;
+    }
+
+    .self {
+      background: #1c6e4e;
+      color: #fff;
+      text-align: right;
+      margin-left: auto;
+    }
+
+    .chat-input {
+      display: flex;
+      padding: 10px;
+      background-color: #f4f6f9;
+      border-top: 1px solid #ddd;
+    }
+
+    .chat-input input {
+      flex: 1;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    .chat-input button {
+      background: #1d805a;
+      border: none;
+      color: white;
+      padding: 8px 12px;
+      margin-left: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Chat container principal -->
+  <div class="chat-container">
+    <div class="chat-header">
+      Suporte em Saúde Mental
+    </div>
+    <div class="chat-rooms">
+      <button onclick="selectRoom('Ansiedade')">Ansiedade</button>
+      <button onclick="selectRoom('Depressão')">Depressão</button>
+      <button onclick="selectRoom('Estresse')">Estresse</button>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <!-- Mensagens do chat aparecem aqui -->
+    </div>
+    <div class="chat-input">
+      <input type="text" id="messageInput" placeholder="Digite sua mensagem...">
+      <button onclick="sendMessage()">Enviar</button>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript para gerenciar o chat e as mensagens
+    let currentRoom = 'Ansiedade';
+    const chatMessages = document.getElementById('chatMessages');
+    const messageInput = document.getElementById('messageInput');
+
+    // Lista de mensagens automáticas do bot para o diálogo guiado
+    const botMessages = [
+      "Olá! Que tal compartilhar como você está se sentindo hoje?",
+      "Lembre-se de que aqui é um espaço seguro.",
+      "Há algo específico que você gostaria de desabafar?",
+      "Respire fundo. Você está indo muito bem.",
+      "Se precisar de alguma ajuda, é só falar."
+    ];
+    let botIndex = 0;
+
+    function selectRoom(roomName) {
+      currentRoom = roomName;
+      chatMessages.innerHTML = ''; // Limpa o chat para a nova sala
+      addMessage(`Você entrou na sala de ${roomName}`, 'sistema');
+      botIndex = 0; // Reinicia o diálogo guiado na nova sala
+      setTimeout(sendBotMessage, 1000); // Inicia o diálogo guiado
+    }
+
+    function addMessage(text, sender = 'user') {
+      const messageElement = document.createElement('div');
+      messageElement.classList.add('message');
+      if (sender === 'self') messageElement.classList.add('self');
+      messageElement.textContent = text;
+      chatMessages.appendChild(messageElement);
+      chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll para última mensagem
+    }
+
+    function sendMessage() {
+      const messageText = messageInput.value.trim();
+      if (messageText) {
+        addMessage(messageText, 'self'); // Mostra mensagem do usuário
+        messageInput.value = ''; // Limpa campo de input
+        setTimeout(sendBotMessage, 1000); // Responde com a próxima mensagem do bot
+      }
+    }
+
+    function sendBotMessage() {
+      if (botIndex < botMessages.length) {
+        addMessage(botMessages[botIndex], 'bot'); // Adiciona mensagem do bot
+        botIndex++; // Avança para a próxima mensagem do bot
+      } else {
+        addMessage("Estou aqui caso precise de mais ajuda.", 'bot'); // Mensagem final
+      }
+    }
+
+    // Inicia o diálogo guiado na primeira sala de "Ansiedade" ao carregar a página
+    window.onload = function() {
+      setTimeout(sendBotMessage, 1000); // Primeira mensagem do bot 1 segundo após carregar a página
+    };
+  </script>
+</body>
+</html>
