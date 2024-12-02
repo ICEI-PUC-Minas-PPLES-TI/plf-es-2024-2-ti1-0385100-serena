@@ -36,7 +36,6 @@
       "id": 5
     }
   ],
-
   "psicologos": [
     {
       "id": 1,
@@ -44,7 +43,7 @@
       "endereco": "Rua Alagoas, 1314, Savassi",
       "favorito": true,
       "cidade": "Belo Horizonte",
-      "lat": -19.9350,
+      "lat": -19.935,
       "long": -43.9336,
       "url": "https://exemplo.com/psicologo1",
       "cor": "#FF5733"
@@ -88,7 +87,7 @@
       "endereco": "Rua Levindo Lopes, 358, Funcionários",
       "favorito": true,
       "cidade": "Belo Horizonte",
-      "lat": -19.9370,
+      "lat": -19.937,
       "long": -43.9311,
       "url": "https://exemplo.com/psicologo5",
       "cor": "#FF33A5"
@@ -100,7 +99,7 @@
       "favorito": false,
       "cidade": "Belo Horizonte",
       "lat": -19.9363,
-      "long": -43.9340,
+      "long": -43.934,
       "url": "https://exemplo.com/psicologo6",
       "cor": "#FFC233"
     },
@@ -149,7 +148,6 @@
       "cor": "#FF33E2"
     }
   ],
-
   "artigos": [
     {
       "id": 1,
@@ -160,7 +158,6 @@
       "referencia": "Ministério da Saúde. Saúde Mental. Disponível em: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental. Acesso em: [data de acesso].",
       "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental"
     },
-    
     {
       "id": 2,
       "nome": "OMS destaca necessidade urgente de transformar a saúde mental e atenção",
@@ -169,7 +166,6 @@
       "resumo": "A OMS enfatiza a importância de transformar a saúde mental e a atenção, destacando as necessidades urgentes em saúde mental ao redor do mundo.",
       "url": "https://www.paho.org/pt/noticias/17-6-2022-oms-destaca-necessidade-urgente-transformar-saude-mental-e-atencao"
     },
-    
     {
       "id": 3,
       "nome": "Saúde Mental - Hospital Israelita Albert Einstein",
@@ -178,7 +174,6 @@
       "resumo": "Informações abrangentes sobre saúde mental, incluindo transtornos, cuidados e tratamento.",
       "url": "https://www.einstein.br/saudemental"
     },
-    
     {
       "id": 4,
       "nome": "Transtornos de Ansiedade: Diagnóstico e Tratamento",
@@ -331,6 +326,33 @@
       "resumo": "Discussão sobre estratégias de prevenção em saúde mental.",
       "referencia": "Revista Brasileira de Saúde Mental",
       "url": "https://www.rbsmental.com.br/artigo/preventao-saude-mental"
+    }
+  ],
+  "reminders": [
+    {
+      "id": 1,
+      "date": "2024-12-01",
+      "text": "Lembrete de exemplo"
+    },
+    {
+      "date": "2024-12-25",
+      "reminder": "natal",
+      "id": 2
+    },
+    {
+      "date": "2024-12-26",
+      "reminder": "oi",
+      "id": 3
+    },
+    {
+      "date": "2024-12-2",
+      "reminder": "g",
+      "id": 4
+    },
+    {
+      "date": "2024-12-16",
+      "reminder": "aniversário",
+      "id": 5
     }
   ]
 }
