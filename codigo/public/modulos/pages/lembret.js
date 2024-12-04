@@ -10,6 +10,7 @@ const closeModal = document.getElementById('closeModal');
 let currentDate = new Date();
 let selectedDate = null;
 
+ 
 // Função para renderizar o calendário
 function renderCalendar() {
   daysContainer.innerHTML = '';
@@ -23,7 +24,47 @@ function renderCalendar() {
     month: 'long',
     year: 'numeric',
   });
+   // Carregar lembretes do servidor
+   fetch('http://localhost:3000/api/reminders')
+   .then(response => {
+     if (!response.ok) {
+       throw new Error(`Erro ao conectar ao servidor: ${response.status}`);
+     }
+     return response.json();
+   })
+   .then(data => {
+     // Preencher o objeto de lembretes com os dados recebidos
+     reminders = data.reduce((acc, reminder) => {
+       acc[reminder.date] = reminder.reminder;
+       return acc;
+     }, {});
+     console.log('Lembretes carregados:', reminders);
+      // Dias do mês atual
+      for (let i = 1; i <= daysInMonth; i++) {
+        const day = document.createElement('div');
+        day.textContent = i;
+        day.classList.add('day');
+        const dateKey = `${year}-${month + 1}-${i}`;
+        if (reminders[dateKey]) {
+          const reminder = document.createElement('div');
+          reminder.classList.add('reminder');
+          reminder.textContent = reminders[dateKey];
+          day.appendChild(reminder);
+      };
+        // Adiciona evento de clique para editar o lembrete
+        day.addEventListener('click', () => {
+          selectedDate = dateKey;
+          reminderText.value = ''; // Preenche o campo de texto vazio
+          reminderModal.classList.add('active');
+        });
 
+        daysContainer.appendChild(day);
+      }
+     //renderCalendar();  // Renderizar o calendário novamente após carregar os lembretes
+   })
+   .catch(error => {
+     console.error('Erro ao conectar ao servidor:', error);
+   });
   // Dias do mês anterior (inativos)
   for (let i = firstDay; i > 0; i--) {
     const day = document.createElement('div');
@@ -32,23 +73,7 @@ function renderCalendar() {
     daysContainer.appendChild(day);
   }
 
-  // Dias do mês atual
-  for (let i = 1; i <= daysInMonth; i++) {
-    const day = document.createElement('div');
-    day.textContent = i;
-    day.classList.add('day');
-    const dateKey = `${year}-${month + 1}-${i}`;
-
-
-    // Adiciona evento de clique para editar o lembrete
-    day.addEventListener('click', () => {
-      selectedDate = dateKey;
-      reminderText.value = ''; // Preenche o campo de texto vazio
-      reminderModal.classList.add('active');
-    });
-
-    daysContainer.appendChild(day);
-  }
+ 
 
   // Dias seguintes (inativos)
   const totalCells = firstDay + daysInMonth;

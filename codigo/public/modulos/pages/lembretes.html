@@ -7,13 +7,14 @@
   <link rel="stylesheet" href="lemb.css">
 </head>
 <body>
-    <h1>Lembretes</h1>
-   
+  <h1>Lembretes</h1>
+
+  <!-- Calendário -->
   <div class="calendar">
     <div class="calendar-header">
-      <button id="prevMonth">&lt;</button>
+      <button id="prevMonth" aria-label="Mês anterior">&lt;</button>
       <h2 id="currentMonth">Novembro 2024</h2>
-      <button id="nextMonth">&gt;</button>
+      <button id="nextMonth" aria-label="Próximo mês">&gt;</button>
     </div>
     <div class="calendar-body">
       <div class="days" id="daysContainer"></div>
@@ -21,15 +22,21 @@
   </div>
 
   <!-- Modal para adicionar lembretes -->
-  <div class="modal" id="reminderModal">
+  <div class="modal" id="reminderModal" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
     <div class="modal-content">
-      <h3>Adicionar Lembrete</h3>
-      <input type="text" id="reminderText" placeholder="Digite seu lembrete">
-      <button id="saveReminder">Salvar</button>
-      <button id="closeModal">Fechar</button>
+      <h3 id="modalTitle">Adicionar Lembrete</h3>
+      <input type="text" id="reminderText" placeholder="Digite seu lembrete" aria-label="Campo de texto para adicionar lembrete">
+      <div class="modal-buttons">
+        <button id="saveReminder">Salvar</button>
+        <button id="closeModal">Fechar</button>
+      </div>
     </div>
   </div>
-  <h3>"Respire fundo, organize-se e lembre-se: tudo no seu tempo."</h3>
+
+  <!-- Rodapé -->
+  <footer>
+    <h3>"Respire fundo, organize-se e lembre-se: tudo no seu tempo."</h3>
+  </footer>
 
   <script src="lembret.js"></script>
 </body>

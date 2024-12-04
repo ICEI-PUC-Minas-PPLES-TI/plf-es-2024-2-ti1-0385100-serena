@@ -1,156 +1,173 @@
 /* Estilos principais do corpo */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f4f8;
-    color: #333;
-    text-align: center;
-    padding: 20px;
-    margin: 0;
-  }
-  
-  /* Estilos do título principal */
-  h1 {
-    color: #4a90e2;
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  /* Estilo da caixa do calendário */
-  .calendar {
-    width: 500px;
-    margin: 0 auto;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Cabeçalho do calendário */
-  .calendar-header {
-    background-color: #4a90e2;
-    color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  #prevMonth, #nextMonth {
-    background-color: #fff;
-    border: none;
-    color: #4a90e2;
-    font-size: 20px;
-    cursor: pointer;
-    padding: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  #prevMonth:hover, #nextMonth:hover {
-    background-color: #d3e1f1;
-  }
-  
-  /* Corpo do calendário */
-  .calendar-body {
-    padding: 10px;
-  }
-  
-  /* Estilo das células de dias */
-  .days {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 5px;
-    text-align: center;
-  }
-  
-  .day {
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .day:hover {
-    background-color: #4a90e2;
-    color: white;
-  }
-  
-  .inactive {
-    background-color: #f0f4f8;
-    cursor: not-allowed;
-  }
-  
-  /* Modal de lembrete */
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    display: none;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal.active {
-    display: flex;
-  }
-  
-  .modal-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    width: 300px;
-    text-align: left;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .modal-content h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .modal-content input {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .modal-content button {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  #saveReminder {
-    background-color: #4a90e2;
-    color: white;
-  }
-  
-  #saveReminder:hover {
-    background-color: #357ab7;
-  }
-  
-  #closeModal {
-    background-color: #e0e0e0;
-    color: #333;
-  }
-  
-  #closeModal:hover {
-    background-color: #c7c7c7;
-  }
-  
-  /* Estilo da citação abaixo do calendário */
-  h3:last-child {
-    font-style: italic;
-    color: #777;
-    margin-top: 20px;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Estilos do título principal */
+h1 {
+  color: #4a90e2;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Container principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Estilo do calendário */
+.calendar {
+  width: 500px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho do calendário */
+.calendar-header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#prevMonth, #nextMonth {
+  background-color: #fff;
+  border: none;
+  color: #4a90e2;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+  transition: background-color 0.3s;
+}
+
+#prevMonth:hover, #nextMonth:hover {
+  background-color: #d3e1f1;
+}
+
+/* Corpo do calendário */
+.calendar-body {
+  padding: 10px;
+}
+
+/* Estilo das células de dias */
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  text-align: center;
+}
+
+.day {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative; /* Para posicionar os lembretes dentro da célula */
+}
+
+.day:hover {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.inactive {
+  background-color: #f0f4f8;
+  cursor: not-allowed;
+}
+
+/* Novo estilo para lembretes dentro do calendário */
+.reminder-text {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-size: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+/* Modal de lembrete */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.active {
+  display: flex;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.modal-content button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#saveReminder {
+  background-color: #4a90e2;
+  color: white;
+}
+
+#saveReminder:hover {
+  background-color: #357ab7;
+}
+
+#closeModal {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+#closeModal:hover {
+  background-color: #c7c7c7;
+}
+
+/* Estilo da citação abaixo do calendário */
+h3:last-child {
+  font-style: italic;
+  color: #777;
+  margin-top: 20px;
+}
