@@ -326,24 +326,43 @@
       "resumo": "Discussão sobre estratégias de prevenção em saúde mental.",
       "referencia": "Revista Brasileira de Saúde Mental",
       "url": "https://www.rbsmental.com.br/artigo/preventao-saude-mental"
+    }
+  ],
+  "reminders": [
+    {
+      "id": 1,
+      "date": "2024-12-01",
+      "text": "Lembrete de exemplo"
     },
     {
-      "id": 21,
-      "nome": "Saúde mental no Brasil: dados e panorama",
-      "data_de_publicacao": "2024-04-15",
-      "autor": "Dr. Guilherme Polanczyk",
-      "resumo": "A pandemia aumentou casos de ansiedade e depressão entre crianças e adolescentes, impactando sua saúde.",
-      "referencia": "Instituto de Psiquiatria do Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo. (2024, 15 de abril). Saúde mental no Brasil: dados e panorama.",
-      "url": "https://ipqhc.org.br/2024/04/15/saude-mental-no-brasil-dados-e-panorama/"
+      "date": "2024-12-25",
+      "reminder": "natal",
+      "id": 2
     },
     {
-      "id": 1732414055936,
-      "nome": "Importância do Dia Mundial da Saúde Mental",
-      "data_de_publicacao": "2023-10-10",
-      "autor": "Genyo Saúde Mental",
-      "resumo": "A conscientização global sobre saúde mental busca promover apoio, inclusão e qualidade de vida",
-      "referencia": "Genyo. (2023, 10 de outubro).",
-      "url": "https://genyo.com.br/dia-mundial-da-saude-mental/"
+      "date": "2024-12-26",
+      "reminder": "oi",
+      "id": 3
+    },
+    {
+      "date": "2024-12-2",
+      "reminder": "g",
+      "id": 4
+    },
+    {
+      "date": "2024-12-16",
+      "reminder": "aniversário",
+      "id": 5
+    },
+    {
+      "date": "2024-12-4",
+      "reminder": "d",
+      "id": 6
+    },
+    {
+      "date": "2024-12-9",
+      "reminder": "p",
+      "id": 7
     }
   ]
 }
