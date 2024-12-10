@@ -215,7 +215,7 @@ O vídeo a seguir traz uma apresentação do problema que a equipe está tratand
 Esta seção apresenta as funcionalidades da solução.Info
 ##### Funcionalidade 1 - Artigos ⚠️ 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
-* **Estrutura de dados:** [Artigos](#ti_ed_artigos)
+* **Estrutura de dados:** [Contatos](#ti_ed_contatos)
 * **Instruções de acesso:**
   * Abra o site e efetue o login
   * Acesse o menu principal e escolha a opção Cadastros
