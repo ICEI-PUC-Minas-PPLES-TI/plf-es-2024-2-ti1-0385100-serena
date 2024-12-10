@@ -145,25 +145,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID     | Descrição do Requisito                                   | Prioridade |
 | ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Categorizar condições mentais por nome | ALTA       |
-| RF-002 | Localizar condições mentais por query de sintomas | MÉDIA     |
-| RF-003 | Fornecer fontes de  informação facilmente assessíveis | MÉDIA     |
-| RF-004 | Função de histórico | ALTA      |
-| RF-005 | Informar o usuário de que o auto diagnóstico não é recomendado | BAIXA     |
-| RF-006 | Fazer sugestões não invasivas para amenizar aflições mentais | MÉDIA     |
-| RF-007 | Tranquilizar o indivíduo utilizando linguagem amigável | BAIXA     |
-| RF-008 | Garantir anonimidade ao usuário | MÉDIA     |
-| RF-009 | Recursos de edição para utilização de profissionais | ALTA    |
-| RF-010 | Atribuir as informações contidas nele as fontes responsáveis | ALTA     |
+| RF-001 | Fornecer acesso a artigos confiáveis e relevantes sobre saúde mental| ALTA       |
+| RF-002 | Implementar barrra de pesquisa para que o usuário possa buscar artigos de interresse | ALTA     |
+| RF-003 | Permitir aos usuários cadastrar artigos que considerem úteis e confiáveis | MÉDIA     |
+| RF-004 | Oferecer lembretes, com a possibilidade de agendar e visualizar lembretes no calendário | ALTA      |
+| RF-005 | Oferecer uma interface amigável e empática, com um design acolhedor e acessível | ALTA     |
+| RF-006 | Possibilitar a visualização de psicólogos próximos com base na localização do usuário | Alta     |
+| RF-007 | Garantir que todas as informações de artigos sejam atribuídas a fontes responsáveis e confiáveis | ALTA     |
 
 ### Requisitos não Funcionais
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA     |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
-| RNF-003 | O aplicativo deve ser acessível à qualquer momento | BAIXA      |
-| RNF-004 | O aplicativo deve possuir uma interface mista | BAIXA      |
+| RNF-001 | O sistema deve ser responsivo e adaptável para dispositivos móveis e desktops | ALTA     |
+| RNF-002 | O sistema deve processar requisições de consulta de artigos e lembretes em no máximo 3 segundos | MÉDIA      |
+| RNF-003 | O aplicativo deve ser acessível à qualquer momento | ALTA      |
+| RNF-004 | O aplicativo deve possuir uma interface intuitiva e acessível, com desing acolhedor e sereno | ALTA      |
 
 ## Projeto de Interface
 Artefatos relacionados com a interface e a interacão do usuário na proposta de solução.
