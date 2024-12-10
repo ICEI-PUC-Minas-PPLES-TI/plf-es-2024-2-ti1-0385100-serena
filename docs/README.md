@@ -1,5 +1,6 @@
+# Introdução
 Informações básicas do projeto.
-* **Projeto:** Aplicativo sobre Falta de Informação sobre saúde mental
+* **Projeto:** A Serena é uma aplicação web desenvolvida para disponibilizar recursos e informações confiáveis, de forma acessível e prática sobre saúde mental. O projeto combina funcionalidades úteis, como informações e ferramentas personalizadas, e um desing acolhedor, visando o bem-estar e conscientização dos usuários.
 * **Repositório GitHub:** https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5
 * **Membros da equipe:**
   * [Aléxia Pereira Quaresma](https://github.com/AlexiaPxr)
