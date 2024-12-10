@@ -65,36 +65,35 @@ e se concentrar em algo como estudos.
 
 # Product Discovery
 ## Etapa de Entendimento
-**✳️✳️✳️ APRESENTE OS ARTEFATOS DA ETAPA  ✳️✳️✳️**
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 
-> Nessa etapa, vamos trabalhar com a metdologia de Design Thinking para compreender com maior profundidade o problema a ser tratado. Nesse processo, vamos elaborar:
+> Nessa etapa, utilizamos a metdologia de Design Thinking para compreender com maior profundidade o problema a ser tratado. As atividades realizadas nesta fase foram:
 >
-> * **Matriz CSD**: Matriz de Alinhamento CSD
+> * **Matriz CSD**: Matriz de Alinhamento CSD (Certezas, Suposições e Dúvidas)
 > * ### Dúvidas
-> * - Como a saúde mental afeta a produtividade? e a vida pessoal?
->   - Qual o papel de medicamentos psiquiàtricos? E as pessoas que estão consumindo sem prescrição?
->   - Onde é comum pessoas afetadas encontrarem tratamento e soluções?
->   - Como disponibilizar informações sobre saúde mental?
->   - Como lidar com a discriminação, que impede indivíduos de procurarem ajuda?
->   - Professionais da saúde estão atendendo as necessidades de seus pacientes corretamente?
+>   - Como a saúde mental afeta a produtividade e a vida pessoal?
+>   - Qual o papel de medicamentos psiquiàtricos? Como lidar com o sem prescrição?
+>   - Onde as pessoas afetadas encontram tratamento e soluções?
+>   - Como disponibilizar informações cofiáveis sobre saúde mental?
+>   - Como lidar com a discriminação que impede indivíduos de procurarem ajuda?
+>   - Os professionais da saúde estão atendendo as necessidades de seus pacientes corretamente?
 >   - 
 >   ### Certezas
->   - OMS - quase 10% da população brasileira tem transtorno de ansiedade
->   - Existe dificuldade em determinar a validez de métodos de tratamento
->   - Relação com suicídio
->   - criação de Políticas - Públicas sobre saúde mental
+>   - Segundo a OMS, quase 10% da população brasileira apresenta transtorno de ansiedade.
+>   - Existe dificuldade em validar métodos de tratamento para transtornos mentais.
+>   - Transtornos mentais tÊm relação direta com o risco de suicídio.
+>   - As políticas públicas voltadas à saúde mental são insuficientes.
 >   - Subdiagnósticos de transtornos mentais.
->   - Condições Econômicas afetam o acesso à tratamento e diagnóstico
->   - Alunos não aprendem sobre como lidar com problemas emocionais e psicológicos no ensino básico ou médio
->   - 
+>   - Condições econômicas afetam o acesso ao tratamento e diagnóstico.
+>   - Alunos não aprendem sobre como lidar com problemas emocionais e psicológicos no ensino básico ou médio.
+>     
 >   ### Suposições
->   -	As gerações mais jovens, por terem mais acesso à internet, estão melhor informadas sobre saúde mental.
->   -	Problemas de saúde mental nem sempre são evidentes, o que pode levar a negligência da doença mental.
+>   -	As gerações mais jovens, por terem mais acesso à internet, possuem mais informações sobre saúde mental.
+>   -	Problemas de saúde mental nem sempre são evidentes, levando a negligência da doença mental e na busca por tratamento.
 >   -	Pessoas modernas vivem vidas estressantes e tumultuadas.
->   -	Para alguns aumentar a disponibilidade de serviços já seria suficiente para combater essa problemática, porém a falta de informação ainda seria um obstáculo significativo para a utilização desses serviços.
+>   -	Aumentar a disponibilidade de serviços ajudaria, mas a falta de informação continuaria como um grande obstáculo.
 
-> * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema
+> * **Mapa de stakeholders**:
+> * Utilizamos o mapa de steakeholders para idenfificar e conhecer os principais grupos de pessoas e entidades relacionados à problemática. Isso inclui:
 > * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
 > * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
 ## Etapa de Definição
