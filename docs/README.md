@@ -1,11 +1,13 @@
 # Introdução
-Informações básicas do projeto.
-* **Projeto:** A Serena é uma aplicação web desenvolvida para disponibilizar recursos e informações confiáveis, de forma acessível e prática sobre saúde mental. O projeto combina funcionalidades úteis, como informações e ferramentas personalizadas, e um desing acolhedor, visando o bem-estar e conscientização dos usuários.
-* **Repositório GitHub:** https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5
+
+* **Projeto:**
+    A Serena é uma aplicação web desenvolvida para disponibilizar recursos e informações confiáveis, de forma acessível e prática sobre saúde mental. O projeto combina funcionalidades úteis, como informações e ferramentas personalizadas, a um desing acolhedor. O objetivo principal é criar um ambiente virtual seguro e sereno, aliando tecnologia e cuidado, para que os usuários possam se conscientizar e alcançar o bem-estar.
+* **Repositório GitHub:**
+    https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-serena
 * **Membros da equipe:**
-  * [Aléxia Pereira Quaresma](https://github.com/AlexiaPxr)
-  * [Deignaura Gonçalves Ribeiro](https://github.com/Deignaura)
-  * [Guilherme d'Angelis Ribeiro Lelis](https://github.com/Canaranjo)
+    * [Aléxia Pereira Quaresma](https://github.com/AlexiaPxr)
+    * [Deignaura Gonçalves Ribeiro](https://github.com/Deignaura)
+    * [Guilherme d'Angelis Ribeiro Lelis](https://github.com/Canaranjo)
 1. Introdução
 2. Contexto
 3. Product Discovery
@@ -15,40 +17,48 @@ Informações básicas do projeto.
 7. Referências Bibliográficas
 8. ✅ [Documentação de Design Thinking (MIRO)](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/files/PPLES-M%20-%20Grupo%205%20-%20Falta%20de%20Informa%C3%A7%C3%A3o%20sobre%20sa%C3%BAde%20mental-4.pdf))
 # Contexto
-Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
+
 ## Problema
-* Falta de informação sobre saúde mental.
-* Diagnósticos tardios, tratamentos inadequados e estigmatização.
+  A saúde mental é um tema cercado por desinformação e por estigmas, o que gera diversas dificuldades, como:
+    * Diagnosticos tardios;
+    * Tratamentos inadequados;
+    * Barreiras causadas pela estigmatização social.
+  A falta de informações contribui para que muitas pessoas não busquem por ajuda ou enfrentem desafios causados pela incompreensão e consequentemente a ausência de cuidados com a saúde mental.
 
 ## Objetivos
-* Desenvolver um software que ofereça informações claras e
-acessíveis sobre saúde mental.
-* Ajudar os usuários a identificar sintomas, buscar ajuda e praticar
-autocuidado.
-
+  O projeto Serena tem como objetivos principais:
+      * Oferecer informações confiáveis:
+        A aplicação web reúne e organiza conteúdos seguros, para promover a cosncientização sobre saúde mental.
+      * Facilita o acesso a reursos:
+        Fornece funcionalidades, como artigos informativos e mapa de psicológos, para que os usuários tenham um suporte relevante.
+      * Promover o bem-estar:
+        Disponibiliza funcionalidade para auxiliar no planejamento e organização de rotinas saudáveis.
+      
 ## Justificativa
-* Crescente demanda por educação sobre saúde mental.
-* A tecnologia oferece uma oportunidade para eliminar barreiras de
-acesso à informação.
+  A saúde mental é essencial para o bem-estar, entretanto enfrenta diversos desafios como a desinformação, estigmas e a falta de acesso a recursos confiáveis. Muitos indivíduos têm dificuldade para identificar os problemas ou até mesmo reconhecê-los, deixando de buscar ajuda adequada. 
+  A Serena, é uma solução para essas questões, pois utiliza tecnologia para disponibilizar informações acessíveis, reforça a importância do cuidado preventivo, elimina barreiras e criar um espaço virtual acolhedor, promovendo conscientização e suporte de forma prática e intuitiva.
 
 ## Público-Alvo
-* Indivíduos de todas as idades, especialmente jovens, profissionais
-e aqueles com dificuldades de acesso a cuidados tradicionais de
+  A aplicação é destinada para pessoas de todas as idades, mas especialmente para:
+* Jovens que estão com desafios emocionais e rotinas intensas;
+* Profissionais que lidam com muitas demandas no dia-a-dia;
+* Pessoas com dificuldades de acesso a cuidados tradicionais de
 saúde mental.
 
-### Usuário 1 Clara 
+### Perfis de usuário
+#### Usuário 1 Clara 
 É uma pessoa muito ocupada, trabalha
 e estuda o dia todo, com uma rotina corrida e agitada ela acaba sendo muito ansiosa e
 estressada. Ela também é uma mulher calma e tranquila, porem muito insegura e
 introvertida.
 
-### Usuário 2: Rafael 
+#### Usuário 2: Rafael 
 É um jovem com a rotina bem corrida por conta do
 trabalho e da faculdade, sente que está sempre ligado no
 220, tendo dificuldade para desacelerar. Sente ancioso, com medo de não da conta,
 inseguro, além de ter que se adaptar a vida de morar sozinho longe de sua família...
 
-### Usuário 3: Refrigerana
+#### Usuário 3: Refrigerana
 É uma pessoa muito estressada e ansiosa, devido as
 dificuldades de sustentar seus dois filhos. É uma pessoa que tem dificuldade em sentar
 e se concentrar em algo como estudos.
