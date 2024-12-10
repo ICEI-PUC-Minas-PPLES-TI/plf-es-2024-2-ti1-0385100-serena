@@ -191,12 +191,14 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 | --------------------------- | ---------- | -------------------------------------------------- |
 | Processo de Design Thinking | Miro       | https://miro.com/app/board/uXjVKnBCsP4=/        |
 | Repositório de código     | GitHub     | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-serena      |
-| Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
-| Protótipo Interativo       | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
+| Protótipo Interativo       | Figma  | https://www.figma.com/design/OKSY9pT1YHTR1iFp4weWvv/Serena?node-id=0-1&node-type=canvas&t=823b2KBfyEte4GmA-0   |
 |                             |            |                                                    |
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) Editor de código, (2) )ferramentas de comunicação, (3) )ferramentas de diagramação, (4) )plataformas de hospedagem, entre outras.
+> ## Ferramentas utilizadas
+> * Editor de código: [VS Code] - Escolhido pela sua interface intuitiva, suporte robusto a extensões e integração com Git, o que facilita a escrita e manutenção do código.
+> * Ferramentas de comunicação: [Google Meet] - Utilizada para reuniões de equipe, devido à sua facilidade de uso, recursos de compartilhamento de tela e estabilidade de conexão.
+> * Ferramentas de diagramação: [Figma] - Optamos por esta ferramenta devido à sua versatilidade, permitindo a criação de wireframes e protótipos interativos colaborativos em tempo real.
+> * Gerenciamento de Tarefas: [Kanban] – Adotamos a metodologia Kanban para organizar o fluxo de trabalho e aumentar a visibilidade das tarefas.
+
 ## Gerenciamento do Projeto
 Divisão de papéis no grupo e apresentação da estrutura da ferramenta de controle de tarefas (Kanban).
 ![Exemplo de Kanban](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/firefox_INhwk8A0oV.png)
