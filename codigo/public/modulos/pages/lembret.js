@@ -10,6 +10,7 @@ const closeModal = document.getElementById('closeModal');
 let currentDate = new Date();
 let selectedDate = null;
 
+
  
 // Função para renderizar o calendário
 function renderCalendar() {
