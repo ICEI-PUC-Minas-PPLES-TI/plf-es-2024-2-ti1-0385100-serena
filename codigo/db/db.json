@@ -5,35 +5,40 @@
       "login": "admin",
       "senha": "123",
       "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "email": "admin@abc.com",
+      "admin": true
     },
     {
       "id": 2,
       "login": "user",
       "senha": "123",
       "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "email": "user@abc.com",
+      "admin": false
     },
     {
       "login": "rommel",
       "senha": "123",
       "nome": "Rommel",
       "email": "rommel@gmail.com",
-      "id": 3
+      "id": 3,
+      "admin": true
     },
     {
       "login": "alexia",
       "senha": "123",
       "nome": "Aléxia Pereira Quaresma",
       "email": "alexia@gmail.com",
-      "id": 4
+      "id": 4,
+      "admin": true
     },
     {
       "login": "deignaura",
       "senha": "123",
       "nome": "Deignaura Gonçalves",
       "email": "deignura@gmaiç.com",
-      "id": 5
+      "id": 5,
+      "admin": true
     }
   ],
   "psicologos": [
