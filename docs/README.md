@@ -1,10 +1,13 @@
-Informações básicas do projeto.
-* **Projeto:** Aplicativo sobre Falta de Informação sobre saúde mental
-* **Repositório GitHub:** https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5
+# Introdução
+
+* **Projeto:**
+    A Serena é uma aplicação web desenvolvida para disponibilizar recursos e informações confiáveis, de forma acessível e prática sobre saúde mental. O projeto combina funcionalidades úteis, como informações e ferramentas personalizadas, a um desing acolhedor. O objetivo principal é criar um ambiente virtual seguro e sereno, aliando tecnologia e cuidado, para que os usuários possam se conscientizar e alcançar o bem-estar.
+* **Repositório GitHub:**
+    https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-serena
 * **Membros da equipe:**
-  * [Aléxia Pereira Quaresma](https://github.com/AlexiaPxr)
-  * [Deignaura Gonçalves Ribeiro](https://github.com/Deignaura)
-  * [Guilherme d'Angelis Ribeiro Lelis](https://github.com/Canaranjo)
+    * [Aléxia Pereira Quaresma](https://github.com/AlexiaPxr)
+    * [Deignaura Gonçalves Ribeiro](https://github.com/Deignaura)
+    * [Guilherme d'Angelis Ribeiro Lelis](https://github.com/Canaranjo)
 1. Introdução
 2. Contexto
 3. Product Discovery
@@ -14,78 +17,98 @@ Informações básicas do projeto.
 7. Referências Bibliográficas
 8. ✅ [Documentação de Design Thinking (MIRO)](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/files/PPLES-M%20-%20Grupo%205%20-%20Falta%20de%20Informa%C3%A7%C3%A3o%20sobre%20sa%C3%BAde%20mental-4.pdf))
 # Contexto
-Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
+
 ## Problema
-* Falta de informação sobre saúde mental.
-* Diagnósticos tardios, tratamentos inadequados e estigmatização.
+  A saúde mental é um tema cercado por desinformação e por estigmas, o que gera diversas dificuldades, como:
+    * Diagnosticos tardios;
+    * Tratamentos inadequados;
+    * Barreiras causadas pela estigmatização social.
+  A falta de informações contribui para que muitas pessoas não busquem por ajuda ou enfrentem desafios causados pela incompreensão e consequentemente a ausência de cuidados com a saúde mental.
 
 ## Objetivos
-* Desenvolver um software que ofereça informações claras e
-acessíveis sobre saúde mental.
-* Ajudar os usuários a identificar sintomas, buscar ajuda e praticar
-autocuidado.
-
+  O projeto Serena tem como objetivos principais:
+      * Oferecer informações confiáveis:
+        A aplicação web reúne e organiza conteúdos seguros, para promover a cosncientização sobre saúde mental.
+      * Facilita o acesso a reursos:
+        Fornece funcionalidades, como artigos informativos e mapa de psicológos, para que os usuários tenham um suporte relevante.
+      * Promover o bem-estar:
+        Disponibiliza funcionalidade para auxiliar no planejamento e organização de rotinas saudáveis.
+      
 ## Justificativa
-* Crescente demanda por educação sobre saúde mental.
-* A tecnologia oferece uma oportunidade para eliminar barreiras de
-acesso à informação.
+  A saúde mental é essencial para o bem-estar, entretanto enfrenta diversos desafios como a desinformação, estigmas e a falta de acesso a recursos confiáveis. Muitos indivíduos têm dificuldade para identificar os problemas ou até mesmo reconhecê-los, deixando de buscar ajuda adequada. 
+  A Serena, é uma solução para essas questões, pois utiliza tecnologia para disponibilizar informações acessíveis, reforça a importância do cuidado preventivo, elimina barreiras e criar um espaço virtual acolhedor, promovendo conscientização e suporte de forma prática e intuitiva.
 
 ## Público-Alvo
-* Indivíduos de todas as idades, especialmente jovens, profissionais
-e aqueles com dificuldades de acesso a cuidados tradicionais de
+  A aplicação é destinada para pessoas de todas as idades, mas especialmente para:
+* Jovens que estão com desafios emocionais e rotinas intensas;
+* Profissionais que lidam com muitas demandas no dia-a-dia;
+* Pessoas com dificuldades de acesso a cuidados tradicionais de
 saúde mental.
 
-### Usuário 1 Clara 
+### Perfis de usuário
+#### Usuário 1 Clara 
 É uma pessoa muito ocupada, trabalha
 e estuda o dia todo, com uma rotina corrida e agitada ela acaba sendo muito ansiosa e
 estressada. Ela também é uma mulher calma e tranquila, porem muito insegura e
 introvertida.
 
-### Usuário 2: Rafael 
+#### Usuário 2: Rafael 
 É um jovem com a rotina bem corrida por conta do
 trabalho e da faculdade, sente que está sempre ligado no
 220, tendo dificuldade para desacelerar. Sente ancioso, com medo de não da conta,
 inseguro, além de ter que se adaptar a vida de morar sozinho longe de sua família...
 
-### Usuário 3: Refrigerana
+#### Usuário 3: Refrigerana
 É uma pessoa muito estressada e ansiosa, devido as
 dificuldades de sustentar seus dois filhos. É uma pessoa que tem dificuldade em sentar
 e se concentrar em algo como estudos.
 
 # Product Discovery
 ## Etapa de Entendimento
-**✳️✳️✳️ APRESENTE OS ARTEFATOS DA ETAPA  ✳️✳️✳️**
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 
-> Nessa etapa, vamos trabalhar com a metdologia de Design Thinking para compreender com maior profundidade o problema a ser tratado. Nesse processo, vamos elaborar:
+> Nessa etapa, utilizamos a metdologia de Design Thinking para compreender com maior profundidade o problema a ser tratado. As atividades realizadas nesta fase foram:
 >
-> * **Matriz CSD**: Matriz de Alinhamento CSD
+> * **Matriz CSD**: Matriz de Alinhamento CSD (Certezas, Suposições e Dúvidas)
 > * ### Dúvidas
-> * - Como a saúde mental afeta a produtividade? e a vida pessoal?
->   - Qual o papel de medicamentos psiquiàtricos? E as pessoas que estão consumindo sem prescrição?
->   - Onde é comum pessoas afetadas encontrarem tratamento e soluções?
->   - Como disponibilizar informações sobre saúde mental?
->   - Como lidar com a discriminação, que impede indivíduos de procurarem ajuda?
->   - Professionais da saúde estão atendendo as necessidades de seus pacientes corretamente?
+>   - Como a saúde mental afeta a produtividade e a vida pessoal?
+>   - Qual o papel de medicamentos psiquiàtricos? Como lidar com o sem prescrição?
+>   - Onde as pessoas afetadas encontram tratamento e soluções?
+>   - Como disponibilizar informações cofiáveis sobre saúde mental?
+>   - Como lidar com a discriminação que impede indivíduos de procurarem ajuda?
+>   - Os professionais da saúde estão atendendo as necessidades de seus pacientes corretamente?
 >   - 
 >   ### Certezas
->   - OMS - quase 10% da população brasileira tem transtorno de ansiedade
->   - Existe dificuldade em determinar a validez de métodos de tratamento
->   - Relação com suicídio
->   - criação de Políticas - Públicas sobre saúde mental
+>   - Segundo a OMS, quase 10% da população brasileira apresenta transtorno de ansiedade.
+>   - Existe dificuldade em validar métodos de tratamento para transtornos mentais.
+>   - Transtornos mentais tÊm relação direta com o risco de suicídio.
+>   - As políticas públicas voltadas à saúde mental são insuficientes.
 >   - Subdiagnósticos de transtornos mentais.
->   - Condições Econômicas afetam o acesso à tratamento e diagnóstico
->   - Alunos não aprendem sobre como lidar com problemas emocionais e psicológicos no ensino básico ou médio
->   - 
+>   - Condições econômicas afetam o acesso ao tratamento e diagnóstico.
+>   - Alunos não aprendem sobre como lidar com problemas emocionais e psicológicos no ensino básico ou médio.
+>     
 >   ### Suposições
->   -	As gerações mais jovens, por terem mais acesso à internet, estão melhor informadas sobre saúde mental.
->   -	Problemas de saúde mental nem sempre são evidentes, o que pode levar a negligência da doença mental.
+>   -	As gerações mais jovens, por terem mais acesso à internet, possuem mais informações sobre saúde mental.
+>   -	Problemas de saúde mental nem sempre são evidentes, levando a negligência da doença mental e na busca por tratamento.
 >   -	Pessoas modernas vivem vidas estressantes e tumultuadas.
->   -	Para alguns aumentar a disponibilidade de serviços já seria suficiente para combater essa problemática, porém a falta de informação ainda seria um obstáculo significativo para a utilização desses serviços.
+>   -	Aumentar a disponibilidade de serviços ajudaria, mas a falta de informação continuaria como um grande obstáculo.
 
-> * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema
-> * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
-> * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
+> * **Mapa de stakeholders**:
+> * Utilizamos o mapa de steakeholders para idenfificar e conhecer os principais grupos de pessoas e entidades relacionados à problemática. Isso inclui:
+>     * Pessoas que utilizam os recursos da Serena.
+>     * Psicólogps, psiquiatras e terapeutas.
+>     * Entidades de saúde pública e privada.
+>     * Instituições educacionais (educação emocional).
+>     * Comunidades de apoio a saúde mental.
+> * **Entrevistas qualitativas**:
+>   Realizamos uma série de entrevistas qualitativas, para validar as suposições e esclarecer as dúvidas levantadas na Matriz CSD. Essas entrevistas foram feitas com:
+>     * Jovens universitários.
+>     * Profissionais com rotinas intensas.
+>     * Pessoas que relataram dificuldades de acesso a tratamentos.
+> * **Highlights de pesquisa**:
+>   De acordo com as entrevistas feitas, alguns pontos merecem destaque:
+>     * A maioria dos entrevistados reconhece a dificuldade de acessar conteúdos de qualidade e confiáveis sobre saúde mental.
+>     * Existe um estigma social no acesso ao tratamento.
+>     * Os profissionais relataram a sobrecarga no atendimento e as limitações para acompanhar seus pacientes.
 ## Etapa de Definição
 ### Personas
 ![Persona x Público-alvo](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_Hqr7UHml0z.png)
@@ -122,53 +145,40 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID     | Descrição do Requisito                                   | Prioridade |
 | ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Categorizar condições mentais por nome | ALTA       |
-| RF-002 | Localizar condições mentais por query de sintomas | MÉDIA     |
-| RF-003 | Fornecer fontes de  informação facilmente assessíveis | MÉDIA     |
-| RF-004 | Função de histórico | ALTA      |
-| RF-005 | Informar o usuário de que o auto diagnóstico não é recomendado | BAIXA     |
-| RF-006 | Fazer sugestões não invasivas para amenizar aflições mentais | MÉDIA     |
-| RF-007 | Tranquilizar o indivíduo utilizando linguagem amigável | BAIXA     |
-| RF-008 | Garantir anonimidade ao usuário | MÉDIA     |
-| RF-009 | Recursos de edição para utilização de profissionais | ALTA    |
-| RF-010 | Atribuir as informações contidas nele as fontes responsáveis | ALTA     |
+| RF-001 | Fornecer acesso a artigos confiáveis e relevantes sobre saúde mental| ALTA       |
+| RF-002 | Implementar barrra de pesquisa para que o usuário possa buscar artigos de interresse | ALTA     |
+| RF-003 | Permitir aos usuários cadastrar artigos que considerem úteis e confiáveis | MÉDIA     |
+| RF-004 | Oferecer lembretes, com a possibilidade de agendar e visualizar lembretes no calendário | ALTA      |
+| RF-005 | Oferecer uma interface amigável e empática, com um design acolhedor e acessível | ALTA     |
+| RF-006 | Possibilitar a visualização de psicólogos próximos com base na localização do usuário | Alta     |
+| RF-007 | Garantir que todas as informações de artigos sejam atribuídas a fontes responsáveis e confiáveis | ALTA     |
 
 ### Requisitos não Funcionais
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA     |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
-| RNF-003 | O aplicativo deve ser acessível à qualquer momento | BAIXA      |
-| RNF-004 | O aplicativo deve possuir uma interface mista | BAIXA      |
+| RNF-001 | O sistema deve ser responsivo e adaptável para dispositivos móveis e desktops | ALTA     |
+| RNF-002 | O sistema deve processar requisições de consulta de artigos e lembretes em no máximo 3 segundos | MÉDIA      |
+| RNF-003 | O aplicativo deve ser acessível à qualquer momento | ALTA      |
+| RNF-004 | O aplicativo deve possuir uma interface intuitiva e acessível, com desing acolhedor e sereno | ALTA      |
 
 ## Projeto de Interface
-Artefatos relacionados com a interface e a interacão do usuário na proposta de solução.
+A interface da Serena foi projetada para ser intuitiva, acessível e acolhedora, com o foco no bem estar do usuário.
 ### Wireframes
 Estes são os protótipos de telas do sistema.
 **✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
 ##### TELA XPTO ⚠️ EXEMPLO ⚠️
 Descrição para a tela XPTO
 ![Exemplo de wireframe](images/exemplo-wireframe.png)
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
->
-> **Orientações**:
->
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
 ### User Flow
 * 1. Acessa o aplicativo
-* 2. Escolhe a opção de interesse (informação, autoavaliação,
-autocuidado ou ajuda).
+* 2. Escolhe a opção de interesse (artigos, cadastro de artigos, mapa de psicologos ou  lembretes).
 * 3. Explora informações e realiza ações com base em suas
-necessidades.
-* 4. Recebe sugestões e recursos personalizáveis.
-* 5. Opcionalmente, busca ajuda profissional.
-* 6. Recebe acompanhamento e notificações, se desejar.
+necessidades (informação, cadastro, organização, busca por ajuda especializada).
+* 4. Faz ajustes nos lembretes conforme suas necessidades de bem-estar.
+* 5. Interage com conteúdos como artigos, e se achar algum artigo externo interessante pode cadastra-lo na aplicação.
+* 6. Finaliza a sessão com acompanhamento ou retorna à navegação para mais opções.
 
 ### Protótipo Interativo
 ✅ [Protótipo Interativo (MarvelApp)](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/prototipo.jpg)
@@ -179,8 +189,8 @@ Detalhes sobre a organização do grupo e o ferramental empregado.
 Relação de ferramentas empregadas pelo grupo durante o projeto.
 | Ambiente                    | Plataforma | Link de acesso                                     |
 | --------------------------- | ---------- | -------------------------------------------------- |
-| Processo de Design Thinking | Miro       | https://miro.com/XXXXXXX ⚠️ EXEMPLO ⚠️        |
-| Repositório de código     | GitHub     | https://github.com/XXXXXXX ⚠️ EXEMPLO ⚠️      |
+| Processo de Design Thinking | Miro       | https://miro.com/app/board/uXjVKnBCsP4=/        |
+| Repositório de código     | GitHub     | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-serena      |
 | Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
 | Protótipo Interativo       | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
 |                             |            |                                                    |

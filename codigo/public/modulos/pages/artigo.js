@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterSelect = document.getElementById('filterSelect');
     
     // Carregar artigos do db.json
-    fetch('../../../db/db.json')
+    fetch('/api/artigos')
         .then(response => response.json())
-        .then(data => {
-            const articles = data.artigos; 
+        .then(articles => {
+           // const articles = data.artigos; 
             displayArticles(articles); // Chama a função para exibir os artigos
             initializeFilters(articles); // Inicializa filtros
         })
