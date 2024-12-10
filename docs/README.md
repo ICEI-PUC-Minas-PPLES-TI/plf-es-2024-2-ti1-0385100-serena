@@ -94,8 +94,21 @@ e se concentrar em algo como estudos.
 
 > * **Mapa de stakeholders**:
 > * Utilizamos o mapa de steakeholders para idenfificar e conhecer os principais grupos de pessoas e entidades relacionados à problemática. Isso inclui:
-> * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
-> * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
+>     * Pessoas que utilizam os recursos da Serena.
+>     * Psicólogps, psiquiatras e terapeutas.
+>     * Entidades de saúde pública e privada.
+>     * Instituições educacionais (educação emocional).
+>     * Comunidades de apoio a saúde mental.
+> * **Entrevistas qualitativas**:
+>   Realizamos uma série de entrevistas qualitativas, para validar as suposições e esclarecer as dúvidas levantadas na Matriz CSD. Essas entrevistas foram feitas com:
+>     * Jovens universitários.
+>     * Profissionais com rotinas intensas.
+>     * Pessoas que relataram dificuldades de acesso a tratamentos.
+> * **Highlights de pesquisa**:
+>   De acordo com as entrevistas feitas, alguns pontos merecem destaque:
+>     * A maioria dos entrevistados reconhece a dificuldade de acessar conteúdos de qualidade e confiáveis sobre saúde mental.
+>     * Existe um estigma social no acesso ao tratamento.
+>     * Os profissionais relataram a sobrecarga no atendimento e as limitações para acompanhar seus pacientes.
 ## Etapa de Definição
 ### Personas
 ![Persona x Público-alvo](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/FoxitPDFReader_Hqr7UHml0z.png)
