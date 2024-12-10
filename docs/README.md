@@ -173,13 +173,12 @@ Descrição para a tela XPTO
 >
 ### User Flow
 * 1. Acessa o aplicativo
-* 2. Escolhe a opção de interesse (informação, autoavaliação,
-autocuidado ou ajuda).
+* 2. Escolhe a opção de interesse (artigos, cadastro de artigos, mapa de psicologos ou  lembretes).
 * 3. Explora informações e realiza ações com base em suas
-necessidades.
-* 4. Recebe sugestões e recursos personalizáveis.
-* 5. Opcionalmente, busca ajuda profissional.
-* 6. Recebe acompanhamento e notificações, se desejar.
+necessidades (informação, cadastro, organização, busca por ajuda especializada).
+* 4. Faz ajustes nos lembretes conforme suas necessidades de bem-estar.
+* 5. Interage com conteúdos como artigos, e se achar algum artigo externo interessante pode cadastra-lo na aplicação.
+* 6. Finaliza a sessão com acompanhamento ou retorna à navegação para mais opções.
 
 ### Protótipo Interativo
 ✅ [Protótipo Interativo (MarvelApp)](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/prototipo.jpg)
