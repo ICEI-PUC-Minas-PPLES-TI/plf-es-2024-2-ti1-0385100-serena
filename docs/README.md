@@ -163,7 +163,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RNF-004 | O aplicativo deve possuir uma interface intuitiva e acessível, com desing acolhedor e sereno | ALTA      |
 
 ## Projeto de Interface
-Artefatos relacionados com a interface e a interacão do usuário na proposta de solução.
+A interface da Serena foi projetada para ser intuitiva, acessível e acolhedora, com o foco no bem estar do usuário.
 ### Wireframes
 Estes são os protótipos de telas do sistema.
 **✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
