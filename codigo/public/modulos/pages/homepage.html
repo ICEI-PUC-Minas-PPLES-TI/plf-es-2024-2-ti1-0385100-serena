@@ -88,32 +88,69 @@
 
     /* Benefícios */
     .beneficios {
-      display: flex;
-      justify-content: space-around;
-      padding: 40px 20px;
-    }
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
 
-    .beneficios div {
-      background-color: #c8e6c9;
-      border-radius: 8px;
-      padding: 20px;
-      text-align: center;
-      width: 30%;
-    }
+  .card {
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    position: relative;
+  }
 
-    /* Depoimentos */
-    .depoimentos {
-      background-color: #a5d6a7;
-      padding: 40px 20px;
-      text-align: center;
-    }
+  .card h3 {
+    margin: 0;
+    font-size: 1.2em;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  }
 
-    .depoimentos blockquote {
-      font-style: italic;
-      margin: 20px auto;
-      color: #2e4c2f;
-    }
+  .card p, .card a {
+    margin: 10px 0;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  }
 
+  .card a {
+    color: #f5f5f5;
+    text-decoration: underline;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+
+  /*Depoimentos*/
+  .depoimentos {
+    background-color: #b4e2ca;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .depoimentos img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    color: #14a055;
+  }
     /* Blog */
     .blog {
       padding: 40px 20px;
@@ -158,7 +195,6 @@
     <div class="logo">Serena</div>
     <nav>
       <ul>
-        <li><a href="#home">Início</a></li>
         <li><a href="lembretes.html">Lembretes</a></li>
         
       </ul>
@@ -169,35 +205,31 @@
   <section class="hero">
     <h1>Bem-vindo à sua jornada de bem-estar</h1>
     <p>Cuidar de sua saúde mental é essencial para uma vida plena.</p>
-    <a href="#servicos" class="cta">Comece Agora</a>
+    <a href="forum.html" class="cta">Comece Agora</a>
   </section>
 
   <!-- Benefícios -->
-  <section class="beneficios">
-    <div>
-      <h3>Terapia ao seu alcance</h3>
-        <a href="mapa.html"> Encontre um especialista próximo a você </a>
+<section class="beneficios">
+  <div class="card" style="background-image: url('https://cdn.gencraft.com/prod/user/2c6e1bc4-67b5-4059-abe7-a010d770c446/62dbd0a2-a1b6-4039-9d00-484d6bffe595/image/image1_0.jpg?Expires=1733924645&Signature=BWg5gnTPCE8asLOedZYWUGEieWJLP~A1C6TRIJv22VChIFHXzOoE0vM7tJd6-E8f5BUX4PyUsyS1Pw7VxUsNTtxNONNJqHqe7w-tCw9iP~rXlB2DI8tz5HEpxGUK1LM7qeTTI3lmnmeTNBEmf1-vRpnyX9v41OjdLX3B~eKSkZYPfGN9Hwb1VFJqxtw64iE~dShAT9oho-JKcomSwNOjqhjlZplJIeBYbtm9z8heOBeZ1EgGwtRCow~ELI2~ArssaPHZAEeY6XbU5th98kwS~9ty165ZEZLfFIx8ZZNRMHoNU0V~pxqtngZfb2u9D188b9cg5dpel9ATxZPfbfFBFA__&Key-Pair-Id=K3RDDB1TZ8BHT8');">
+    <h3>Terapia ao seu alcance</h3>
+    <a href="mapa.html">Encontre um especialista próximo a você</a>
+    <p>Conecte-se com especialistas onde estiver.</p>
+  </div>
+  <div class="card" style="background-image: url('https://cdn.gencraft.com/prod/user/2c6e1bc4-67b5-4059-abe7-a010d770c446/e7f93334-c530-4d0f-b0b0-71a12d66c6ac/image/image1_0.jpg?Expires=1733955910&Signature=XsyFwXu94jzrXJ8Ymgld0di17ImXAWWT-uMMJYXS~d~HjGFn9QqDY1~MIQwubOD17TUQLc6vzXNDlOVIxF7Nc2R8IP-tREayLZpMI6F4yDRbhRAvfWAK3w-20sLulM0GT5m9pDMfBBeeM7Yni1g3RazGDkOabBpMiNOvoM4xvJBjf0GpG6OwZY0aqKg2O-DVEf1HQwI7N6bgAIoq3gU4-oqvL17UvMOvtqoCsZUnNi2XcGqGn~Kx6ayQwsZ2JU69l8qqLSc8iMbioJ34eD1QanrkXr33VkU1N7cYfwc9xrI1g5yyZyzvLF-e4P8aWJKAc1-oDvrJgR1p~HQJfK5DCg__&Key-Pair-Id=K3RDDB1TZ8BHT8');">
+    <h3>Artigos</h3>
+    <a href="artigo.html">Leia artigos sobre bem-estar</a>
+    <p>Relaxamento e equilíbrio emocional ao seu alcance.</p>
+  </div>
+</section>
 
-      <p>Conecte-se com especialistas onde estiver.</p>
-    </div>
-    <div>
-      <h3>Artigos</h3>
-      <a href="artigo.html">Artigos</a>
-      <p>Relaxamento e equilíbrio emocional ao seu alcance.</p>
-    </div>
-    <div>
-      <h3>Chat de Suporte</h3>
-      <a href="chat.html">Chat de Suporte</a>
-      <p>Partilhe e encontre apoio de outros usuários.</p>
-    </div>
-  </section>
+  
 
-  <!-- Depoimentos -->
-  <section class="depoimentos">
-    <h2>O que nossos usuários dizem</h2>
-    <blockquote>"Essa plataforma mudou minha vida. Me sinto muito mais equilibrado e confiante."</blockquote>
-    <blockquote>"A meditação guiada é incrível. Recomendo a todos!"</blockquote>
-  </section>
+<!-- Depoimentos -->
+<section class="depoimentos">
+  <h2>O que nossos usuários dizem</h2>
+  <blockquote>"Essa plataforma mudou minha vida. Me sinto muito mais equilibrado e confiante."</blockquote>
+  <blockquote>"A meditação guiada é incrível. Recomendo a todos!"</blockquote>
+</section>
 
   <!-- Blog -->
   <section class="blog">
@@ -205,15 +237,22 @@
     <div class="artigos">
       <div class="artigo">
         <h3>Como lidar com a ansiedade</h3>
-        <p>Dicas práticas para manter a calma no dia a dia.</p>
+        <p> 1. Respire e Viva o Presente </p>
+         <p>2. Faça exercícios para relaxar</p>    
+          <p>3. Busque Apoio e Organize-se</p>
+        </p>
       </div>
       <div class="artigo">
         <h3>Melhorando seu sono</h3>
-        <p>Estratégias simples para dormir melhor.</p>
+        <p>1. Crie uma Rotina de Sono</p>
+        <p>2. Evite Estímulos à Noite</p>
+        <p>3. Relaxamento e Cuidados Mentais</p>
       </div>
       <div class="artigo">
         <h3>Benefícios da meditação</h3>
-        <p>Entenda como meditar pode transformar sua vida.</p>
+        <p>1. Redução do Estresse e Ansiedade</p>
+        <p>2. Melhora na Concentração e Clareza Mental</p>
+        <p>3. Aumento da Inteligência Emocional</p>
       </div>
     </div>
   </section>
