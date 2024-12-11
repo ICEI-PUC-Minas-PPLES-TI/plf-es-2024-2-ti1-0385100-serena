@@ -7,7 +7,7 @@
 * **Membros da equipe:**
     * [Aléxia Pereira Quaresma](https://github.com/AlexiaPxr)
     * [Deignaura Gonçalves Ribeiro](https://github.com/Deignaura)
-    * [Guilherme d'Angelis Ribeiro Lelis](https://github.com/Canaranjo)
+    
 1. Introdução
 2. Contexto
 3. Product Discovery
