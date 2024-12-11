@@ -7,6 +7,7 @@
 * **Membros da equipe:**
     * [Aléxia Pereira Quaresma](https://github.com/AlexiaPxr)
     * [Deignaura Gonçalves Ribeiro](https://github.com/Deignaura)
+    * 
     
 1. Introdução
 2. Contexto
