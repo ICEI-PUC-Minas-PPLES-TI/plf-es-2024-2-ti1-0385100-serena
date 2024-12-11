@@ -205,11 +205,8 @@ Divisão de papéis no grupo e apresentação da estrutura da ferramenta de cont
 ![Exemplo de Kanban](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-ti-aw-grupo-5/blob/master/docs/images/firefox_INhwk8A0oV.png)
 
 ## Vídeo do Projeto
-O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução. ⚠️ EXEMPLO ⚠️
-[![Vídeo do projeto](images/video.png)](https://www.youtube.com/embed/70gGoFyGeqQ)
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O video de apresentação é voltado para que o público externo possa conhecer a solução. O formato é livre, sendo importante que seja apresentado o problema e a solução numa linguagem descomplicada e direta.
+ https://www.capcut.com/view/7446974809176687109?workspaceId=7445457153340506117 
+
 >
 > Inclua um link para o vídeo do projeto.
 ## Funcionalidades
