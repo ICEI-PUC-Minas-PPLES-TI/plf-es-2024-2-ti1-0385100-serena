@@ -214,69 +214,84 @@ O vídeo a seguir traz uma apresentação do problema que a equipe está tratand
 ## Funcionalidades
 Esta seção apresenta as funcionalidades da solução.Info
 ##### Funcionalidade 1 - Artigos ⚠️ 
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+Artigos: Acesso a conteúdos sobre saúde mental e bem-estar, com dicas e orientações para melhorar a qualidade de vida.
+
+
+
+Mapa de Psicólogos: Localize psicólogos próximos a você, facilitando o agendamento de consultas e a escolha de um profissional adequado às suas necessidades.
+
+Lembretes do Calendário: Defina lembretes para compromissos importantes, como sessões de terapia ou atividades de autocuidado, ajudando na organização e no cuidado com a saúde mental.
 * **Estrutura de dados:** [Contatos](#ti_ed_contatos)
 * **Instruções de acesso:**
   * Abra o site e efetue o login
-  * Acesse o menu principal e escolha a opção Cadastros
-  * Em seguida, escolha a opção Contatos
+  *  EM seguida ira ser exizibida a home page, com opção de artigos, terapia,lembrete, comece agora
+  *  clicando em cada oção é direcionada para uma página 
 * **Tela da funcionalidade**:
-![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
+* ![image](https://github.com/user-attachments/assets/17d0e71a-91b4-4316-89cc-0ea0f674f689)
+* ![image](https://github.com/user-attachments/assets/a5e984e0-65c9-4758-8beb-674eaeac00c4)
+* ![image](https://github.com/user-attachments/assets/6c2c827f-303b-43a7-95d5-9900fef115da)
+
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>Artigos (usuário possa se informar com dados científicos)
+> mapa (possa encontrar suporte de maneira mais rápida)
+> lembretes ( possa se atualizar e se organizar dia após dia de sua atividades)
+> fórum( metas a se cumprir do dia)
 >
-> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
->
-> Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
+
 ## Estruturas de Dados
-Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
+
 ##### Estrutura de Dados - Contatos   ⚠️ EXEMPLO ⚠️
 Contatos da aplicação
 ```json
-  {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
-  }
+  "reminders": [
+    {
+      "id": 1,
+      "date": "2024-12-01",
+      "text": "Lembrete de exemplo"
+    },
+"artigos": [
+    {
+      "id": 1,
+      "nome": "Saúde Mental - Portal da Saúde",
+      "data_publicacao": "Data não especificada no site",
+      "autor": "Ministério da Saúde",
+      "resumo": "O portal fornece informações sobre saúde mental, abordando temas como transtornos mentais, políticas de saúde e serviços disponíveis.",
+      "referencia": "Ministério da Saúde. Saúde Mental. Disponível em: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental. Acesso em: [data de acesso].",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental"
+    },
+ mapa{
+      "id": 10,
+      "descricao": "Psicoterapia integrativa e mindfulness",
+      "endereco": "Av. Brasil, 1580, Santa Efigênia",
+      "favorito": false,
+      "cidade": "Belo Horizonte",
+      "lat": -19.9243,
+      "long": -43.9207,
+      "url": "https://exemplo.com/psicologo10",
+      "cor": "#FF33E2"
+    }
   
 ```
-##### Estrutura de Dados - Usuários  ⚠️ EXEMPLO ⚠️
-Registro dos usuários do sistema utilizados para login e para o perfil do sistema
-```json
-  {
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    email: "admin@abc.com",
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    login: "admin",
-    nome: "Administrador do Sistema",
-    senha: "123"
-  }
+
 ```
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente as estruturas de dados utilizadas na solução tanto para dados utilizados na essência da aplicação quanto outras estruturas que foram criadas para algum tipo de configuração
->
-> Nomeie a estrutura, coloque uma descrição sucinta e apresente um exemplo em formato JSON.
+> Estruturas do JSON
+ARTIGOS
+mapa
+reminders
 >
 > **Orientações:**
 >
-> * [JSON Introduction](https://www.w3schools.com/js/js_json_intro.asp)
-> * [Trabalhando com JSON - Aprendendo desenvolvimento web | MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON)
+> * [JSON Introduction] (Conteúdo  aprendido com a máreia DIW)
+
 ## Módulos e APIs
 Esta seção apresenta os módulos e APIs utilizados na solução
 **Images**:
 * Unsplash - [https://unsplash.com/](https://unsplash.com/) ⚠️ EXEMPLO ⚠️
 **Fonts:**
 * Icons Font Face - [https://fontawesome.com/](https://fontawesome.com/) ⚠️ EXEMPLO ⚠️
-**Scripts:**
-* jQuery - [http://www.jquery.com/](http://www.jquery.com/) ⚠️ EXEMPLO ⚠️
-* Bootstrap 4 - [http://getbootstrap.com/](http://getbootstrap.com/) ⚠️ EXEMPLO ⚠️
+
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente os módulos e APIs utilizados no desenvolvimento da solução. Inclua itens como: (1) Frameworks, bibliotecas, módulos, etc. utilizados no desenvolvimento da solução; (2) APIs utilizadas para acesso a dados, serviços, etc.
+>Foram usadas APIs para o mapa e artigos.
 # Referências
 As referências utilizadas no trabalho foram:
 * Goffman, E. (2010). Estigma: Notas sobre a manipulação da identidade deteriorada. Rio de Janeiro: Editora Vozes.
